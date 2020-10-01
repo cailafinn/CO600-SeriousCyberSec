@@ -19,7 +19,7 @@
 - Control scheme settings. Rebindable controls for accessability. 
 - Pixel art, shovel knight style graphics if possible. Consistent art style is important!
 - Top down maze style. Interaction with objects is done via a first person view. 
-- Private detective for hire. 
+- Private detective for hire. Hat and Trench coat have selectable colour for avatar. 
 - Solving a fraud case, finding the hacker that stole money.
 - Password recovery security questtions are actually cyber security questions.
-- C# required for programming in unity. 
+- C# required for programming in unity. New technology for all participants.
