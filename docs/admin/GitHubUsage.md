@@ -14,8 +14,10 @@
 ## Pull Requests
 - Merging to master requires a pull request (PR)  to be created.
 - Fill in the Description of Work, Testing Instructions, and Issue number tag. 
-- Submit the pull request.
+- Submit the PR.
 - Wait for code review to be completed.
+- If changes are requested, they should be made or discussed by the creator of the PR.
+- The creator should click the "Re-request review" button once they have resolved all the requested changes. 
 - Once code review is complete and approved the PR will be merged into master. 
 
 ## Project Board
