@@ -19,4 +19,6 @@
     - Character plan #16
 
 ## Other Discussions:
- 
+![whiteboard planning one](./Images/IMG_1484.jpeg)
+![whiteboard planning two](./Images/IMG_1485.jpeg)
+
