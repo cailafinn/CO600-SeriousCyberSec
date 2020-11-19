@@ -13,7 +13,9 @@
 - Gordon (Hacker):
   - Typing animation
   
-- Victim
+- Belinda (Victim):
+  - No animation required(?)
+  - Check character plan for design
 
 ### Tiles
 
@@ -27,7 +29,7 @@
   - Server room
   - Conservatory
 
-### Things
+### Items
 
 - Decorations:
   - Paintings
