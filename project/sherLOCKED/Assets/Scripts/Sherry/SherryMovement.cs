@@ -5,7 +5,14 @@ using UnityEngine;
 public class SherryMovement : MonoBehaviour
 {
 
-    float walkSpeed = 3f;
+    // Publically Acessible variables
+    public float walkSpeed = 3f;
+
+    // Sprites for movement directions
+    public Sprite northSpr;
+    public Sprite eastSpr;
+    public Sprite southSpr;
+    public Sprite westSpr;
 
 	Direction facing;
 	Vector2 input;
@@ -25,7 +32,33 @@ public class SherryMovement : MonoBehaviour
                 input.x = 0;
             }
             
-             if(input != Vector2.zero) {
+            if(input != Vector2.zero) {
+                // Change directional sprite
+                if(input.x < 0) {
+                    facing = Direction.West;
+                } else if (input.x > 0) {
+                    facing = Direction.East;
+                } else if (input.y < 0) {
+                    facing = Direction.South;
+                } else if (input.y > 0) {
+                    facing = Direction.North;
+                }
+
+                switch(facing){
+                    case Direction.North:
+                    gameObject.GetComponent<SpriteRenderer>().sprite = northSpr;
+                    break;
+                    case Direction.East:
+                    gameObject.GetComponent<SpriteRenderer>().sprite = eastSpr;
+                    break;
+                    case Direction.South:
+                    gameObject.GetComponent<SpriteRenderer>().sprite = southSpr;
+                    break;
+                    case Direction.West:
+                    gameObject.GetComponent<SpriteRenderer>().sprite = westSpr;
+                    break;
+                }
+                // Move character
                 StartCoroutine(Move(transform));
             }
         }
