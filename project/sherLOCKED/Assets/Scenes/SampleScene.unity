@@ -234,6 +234,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb5767347edae4495a178d9b3051bf4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkSpeed: 3
+  northSpr: {fileID: -9416822118465071, guid: 789e27b111abe4ce092a29d5f8489e84, type: 3}
+  eastSpr: {fileID: 897392074708620322, guid: 789e27b111abe4ce092a29d5f8489e84, type: 3}
+  southSpr: {fileID: 4280194099939217542, guid: 789e27b111abe4ce092a29d5f8489e84,
+    type: 3}
+  westSpr: {fileID: 3221920516547320352, guid: 789e27b111abe4ce092a29d5f8489e84, type: 3}
 --- !u!212 &1685861543
 SpriteRenderer:
   m_ObjectHideFlags: 0
