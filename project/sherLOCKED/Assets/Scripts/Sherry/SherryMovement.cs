@@ -20,6 +20,12 @@ public class SherryMovement : MonoBehaviour
     Vector3 startPos;
     Vector3 endPos;
     float time;
+
+    Animator anim;
+
+    void Start() {
+        anim = GetComponent<Animator>();
+    }
 	
     // Update is called once per frame
     void Update()
@@ -33,33 +39,15 @@ public class SherryMovement : MonoBehaviour
             }
             
             if(input != Vector2.zero) {
-                // Change directional sprite
-                if(input.x < 0) {
-                    facing = Direction.West;
-                } else if (input.x > 0) {
-                    facing = Direction.East;
-                } else if (input.y < 0) {
-                    facing = Direction.South;
-                } else if (input.y > 0) {
-                    facing = Direction.North;
-                }
+                // Control Animator
+                anim.SetBool("isWalking", true);
+                anim.SetFloat("input_x", input.x);
+                anim.SetFloat("input_y", input.y);
 
-                switch(facing){
-                    case Direction.North:
-                    gameObject.GetComponent<SpriteRenderer>().sprite = northSpr;
-                    break;
-                    case Direction.East:
-                    gameObject.GetComponent<SpriteRenderer>().sprite = eastSpr;
-                    break;
-                    case Direction.South:
-                    gameObject.GetComponent<SpriteRenderer>().sprite = southSpr;
-                    break;
-                    case Direction.West:
-                    gameObject.GetComponent<SpriteRenderer>().sprite = westSpr;
-                    break;
-                }
                 // Move character
                 StartCoroutine(Move(transform));
+            } else {
+                anim.SetBool("isWalking", false);
             }
         }
     }
