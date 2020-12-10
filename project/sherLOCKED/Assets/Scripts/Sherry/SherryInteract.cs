@@ -20,20 +20,25 @@ public class SherryInteract : MonoBehaviour
         }
     }
 
+    // checks if player is near object
+    // if they are near the object, text appears
+    // prompting user to interact with object
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Interactable") && !inCollider)
         {
-            inCollider = !inCollider;
+            inCollider = true;
             interact.text = "Press E or Space to interact with the desk.";
         }
     }
 
+    // checks if player leaves the object perimeter
+    // if player does leave the perimeter text prompt is removed
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Interactable"))
         {
-            inCollider = !inCollider;
+            inCollider = false;
             interact.text = "";
         }
     }
