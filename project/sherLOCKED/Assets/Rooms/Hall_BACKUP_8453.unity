@@ -1263,7 +1263,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+<<<<<<< HEAD
 --- !u!1 &890904179
+=======
+--- !u!1 &776707082
+>>>>>>> Move sherry to hall scene and remove sample RE #36
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1271,17 +1275,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 890904183}
   - component: {fileID: 890904182}
   - component: {fileID: 890904181}
   - component: {fileID: 890904180}
   m_Layer: 5
   m_Name: Canvas
+=======
+  - component: {fileID: 776707083}
+  - component: {fileID: 776707086}
+  - component: {fileID: 776707085}
+  - component: {fileID: 776707084}
+  m_Layer: 0
+  m_Name: sherry
+>>>>>>> Move sherry to hall scene and remove sample RE #36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!114 &890904180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1344,10 +1358,15 @@ Canvas:
   m_TargetDisplay: 0
 --- !u!224 &890904183
 RectTransform:
+=======
+--- !u!4 &776707083
+Transform:
+>>>>>>> Move sherry to hall scene and remove sample RE #36
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 890904179}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1466,10 +1485,24 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1696028760
 MonoBehaviour:
+=======
+  m_GameObject: {fileID: 776707082}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.5, y: -3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2063408728}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &776707084
+Animator:
+  serializedVersion: 3
+>>>>>>> Move sherry to hall scene and remove sample RE #36
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1696028759}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1484,11 +1517,27 @@ MonoBehaviour:
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
 --- !u!114 &1696028761
+=======
+  m_GameObject: {fileID: 776707082}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53e92faed20fe4ff08b48665b5530fc8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &776707085
+>>>>>>> Move sherry to hall scene and remove sample RE #36
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1696028759}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1531,12 +1580,26 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!212 &2013031515
+=======
+  m_GameObject: {fileID: 776707082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5767347edae4495a178d9b3051bf4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 3
+--- !u!212 &776707086
+>>>>>>> Move sherry to hall scene and remove sample RE #36
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2013031514}
+=======
+  m_GameObject: {fileID: 776707082}
+>>>>>>> Move sherry to hall scene and remove sample RE #36
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1566,20 +1629,33 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+<<<<<<< HEAD
   m_SortingLayerID: -33764813
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 72c33410057d7456baeb306c004f9f7e, type: 3}
+=======
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 4280194099939217542, guid: 789e27b111abe4ce092a29d5f8489e84,
+    type: 3}
+>>>>>>> Move sherry to hall scene and remove sample RE #36
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< HEAD
   m_Size: {x: 2, y: 2}
+=======
+  m_Size: {x: 1, y: 1}
+>>>>>>> Move sherry to hall scene and remove sample RE #36
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!4 &2013031516
 Transform:
   m_ObjectHideFlags: 0
@@ -1620,6 +1696,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 1}
   m_EdgeRadius: 0
+=======
+>>>>>>> Move sherry to hall scene and remove sample RE #36
 --- !u!1 &2063408726
 GameObject:
   m_ObjectHideFlags: 0
