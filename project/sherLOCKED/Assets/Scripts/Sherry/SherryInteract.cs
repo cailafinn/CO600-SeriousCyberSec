@@ -28,7 +28,7 @@ public class SherryInteract : MonoBehaviour
         if (other.gameObject.CompareTag("Interactable") && !inCollider)
         {
             inCollider = true;
-            interact.text = "Press E or Space to interact with the desk.";
+            interact.text = "Press E or Space to interact with the computer.";
         }
     }
 
