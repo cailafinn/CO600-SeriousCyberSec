@@ -42,12 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 531419617
+  - name: background
+    uniqueID: 1955283251
     locked: 0
-  - name: Furniture
-    uniqueID: 4261202483
+  - name: furniture
+    uniqueID: 1273285335
     locked: 0
-  - name: Characters
-    uniqueID: 792888519
+  - name: character
+    uniqueID: 2727686911
     locked: 0
