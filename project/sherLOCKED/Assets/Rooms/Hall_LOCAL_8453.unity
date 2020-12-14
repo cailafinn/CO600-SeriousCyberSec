@@ -1432,7 +1432,7 @@ PrefabInstance:
     - target: {fileID: 5775625926783711417, guid: 4cca489188eb944529c65aa3be842bde,
         type: 3}
       propertyPath: m_Name
-      value: sherry
+      value: sherry_b1
       objectReference: {fileID: 0}
     - target: {fileID: 5775625926783711419, guid: 4cca489188eb944529c65aa3be842bde,
         type: 3}
@@ -1446,31 +1446,6 @@ PrefabInstance:
       objectReference: {fileID: 2126607703}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cca489188eb944529c65aa3be842bde, type: 3}
---- !u!1 &1227612962 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5775625926783711417, guid: 4cca489188eb944529c65aa3be842bde,
-    type: 3}
-  m_PrefabInstance: {fileID: 1075760639}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1227612969
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1227612962}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 53e92faed20fe4ff08b48665b5530fc8, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1696028759
 GameObject:
   m_ObjectHideFlags: 0
