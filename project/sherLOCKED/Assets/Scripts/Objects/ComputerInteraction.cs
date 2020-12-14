@@ -12,7 +12,7 @@ public class ComputerInteraction : MonoBehaviour
     
     // Private Variables
     private GameObject[] questionObjects;
-    private bool inCollider = true;
+    private bool inCollider = false;
     private bool answered = false;
 
     // Start is called before the first frame update
