@@ -10,9 +10,7 @@ public class SherryMovement : MonoBehaviour
     // Movement control variables
 	Vector2 input;
 	bool isMoving = false;
-    Vector3 startPos;
-    Vector3 endPos;
-    float time;
+    Rigidbody2D rb;
 
     // Animation controller
     Animator anim;
@@ -20,6 +18,7 @@ public class SherryMovement : MonoBehaviour
     // Called at start
     void Start() {
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 	
     // Update is called once per frame
@@ -40,7 +39,7 @@ public class SherryMovement : MonoBehaviour
                 anim.SetFloat("input_y", input.y);
 
                 // Move character
-                StartCoroutine(Move(transform));
+                Move();
             } else {
                 anim.SetBool("isWalking", false);
             }
@@ -49,22 +48,19 @@ public class SherryMovement : MonoBehaviour
 
     /**
     * Move the character smoothly according to the input vector
-    * @ entity The entity to be moved
     */
-    public IEnumerator Move(Transform entity) {
+    public void Move() {
         isMoving = true;
-        startPos = entity.position;
-        time = 0;
 
-        endPos = new Vector3(startPos.x + System.Math.Sign(input.x), startPos.y + System.Math.Sign(input.y), startPos.z);
-
-        while(time < 1f) {
-            time += Time.deltaTime * walkSpeed;
-            entity.position = Vector3.Lerp(startPos, endPos, time);
-            yield return null;
-        }
-
+        if (Input.GetAxisRaw("Vertical") > 0) 
+            rb.MovePosition(rb.position + Vector2.up * (Time.fixedDeltaTime * walkSpeed));
+        else if (Input.GetAxisRaw("Vertical") < 0) 
+            rb.MovePosition(rb.position + Vector2.down * (Time.fixedDeltaTime * walkSpeed));
+        else if (Input.GetAxisRaw("Horizontal") < 0) 
+            rb.MovePosition(rb.position + Vector2.left * (Time.fixedDeltaTime * walkSpeed));
+        else if (Input.GetAxisRaw("Horizontal") > 0) 
+            rb.MovePosition(rb.position + Vector2.right * (Time.fixedDeltaTime * walkSpeed));
+        
         isMoving = false;
-        yield return 0;
     }
 }
