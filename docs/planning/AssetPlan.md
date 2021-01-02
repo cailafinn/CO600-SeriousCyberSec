@@ -2,6 +2,10 @@
 ## Details
 *Resolution*: 64x64 pixels for main world sprites
 *Colours and Styling*: Inspiration taken from the overworld sections of the pokemon games. Full set of colours can be used
+*Settings*:
+  - Pixels Per Unit = 16
+  - Filter Mode = Point
+  - Compression = None
 
 ## Asset List
 ### People
