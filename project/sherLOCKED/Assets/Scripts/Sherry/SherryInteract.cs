@@ -6,18 +6,11 @@ using UnityEngine.UI;
 
 public class SherryInteract : MonoBehaviour
 {
-    public Text interact;
+    public GameObject interact;
     private bool inCollider = false;
 
-    void Update()
-    {
-        if (inCollider)
-        {
-            if (Input.GetKeyDown("e") || Input.GetKeyDown("space"))
-            {
-                interact.text = "Good Job. You did it!";
-            }
-        }
+    void Start() {
+        interact.SetActive(false);
     }
 
     // checks if player is near object
@@ -28,7 +21,7 @@ public class SherryInteract : MonoBehaviour
         if (other.gameObject.CompareTag("Interactable") && !inCollider)
         {
             inCollider = true;
-            interact.text = "Press E or Space to interact with the computer.";
+            interact.SetActive(true);
         }
     }
 
@@ -39,7 +32,7 @@ public class SherryInteract : MonoBehaviour
         if (other.gameObject.CompareTag("Interactable"))
         {
             inCollider = false;
-            interact.text = "";
+            interact.SetActive(false);
         }
     }
 
