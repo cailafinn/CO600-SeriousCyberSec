@@ -12,11 +12,13 @@ public class DoorInteraction : MonoBehaviour
     // checks if player is near a door
     // if they go through the door
     // load new room
+    // player object is not deleted when the new room is loaded
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player") && !inCollider)
         {
             inCollider = true;
+            DontDestroyOnLoad(other.gameObject);
             SceneManager.LoadScene("DiningRoom");
         }
     }
