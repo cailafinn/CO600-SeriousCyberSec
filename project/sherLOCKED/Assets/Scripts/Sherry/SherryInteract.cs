@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class SherryInteract : MonoBehaviour
 {
@@ -20,14 +19,6 @@ public class SherryInteract : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Interactable") && !inCollider)
         {
-            //Debug.Log("Opened Door!")
-            if(other.gameObject.CompareTag("DoorInteractable"))
-            {
-                //Debug.Log("Opened Door!")
-                inCollider = true;
-                interact.SetActive(true);
-                SceneManager.LoadScene("DiningRoom");
-            }
             inCollider = true;
             interact.SetActive(true);
         }

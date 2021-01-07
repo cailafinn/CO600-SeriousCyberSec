@@ -1,36 +1,33 @@
 using UnityEngine.SceneManagement;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class DoorInteraction : MonoBehaviour
 {
-    public GameObject interact;
     private bool inCollider = false;
-    public string DestinationRoomName;
-    public string DestinationGameObjectName;
 
     void Start() {
-        interact.SetActive(false);
     }
 
-    // checks if player is near object
-    // if they are near the object, text appears
-    // prompting user to interact with object
+    // checks if player is near a door
+    // if they go through the door
+    // load new room
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Interactable") && !inCollider)
+        if (other.gameObject.CompareTag("Player") && !inCollider)
         {
             inCollider = true;
-            Application.LoadLevel(DiningRoom);
-            interact.SetActive(true);
+            SceneManager.LoadScene("DiningRoom");
         }
     }
 
-    // checks if player leaves the object perimeter
-    // if player does leave the perimeter text prompt is removed
+    // checks if player leaves the door perimeter
+    // if player does leave the perimeter the set collider variable to false
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Interactable"))
+        if (other.gameObject.CompareTag("Player"))
         {
             inCollider = false;
-            interact.SetActive(false);
-        
+        }
+    }
 }
