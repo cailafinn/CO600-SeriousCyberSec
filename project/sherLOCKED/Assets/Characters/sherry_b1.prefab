@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -5485993549826020215}
   - component: {fileID: 5775625926783711418}
   - component: {fileID: 7942183510713161380}
+  - component: {fileID: 5821282855483285976}
   m_Layer: 0
   m_Name: sherry_b1
   m_TagString: Untagged
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 792888519
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 4280194099939217542, guid: 789e27b111abe4ce092a29d5f8489e84,
     type: 3}
@@ -146,11 +147,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 3
-  northSpr: {fileID: -9416822118465071, guid: 789e27b111abe4ce092a29d5f8489e84, type: 3}
-  eastSpr: {fileID: 897392074708620322, guid: 789e27b111abe4ce092a29d5f8489e84, type: 3}
-  southSpr: {fileID: 4280194099939217542, guid: 789e27b111abe4ce092a29d5f8489e84,
-    type: 3}
-  westSpr: {fileID: 3221920516547320352, guid: 789e27b111abe4ce092a29d5f8489e84, type: 3}
 --- !u!114 &7942183510713161380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,3 +160,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interact: {fileID: 0}
+--- !u!114 &5821282855483285976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5775625926783711417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f11222f943f40f998819022b6b7a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
