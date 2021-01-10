@@ -297,11 +297,11 @@ RectTransform:
   m_Father: {fileID: 890904183}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -419.75}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 20, y: 20}
   m_SizeDelta: {x: 200, y: 200}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!224 &459842002 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5986492941132275449, guid: 732bcd32f480b4397a8747cbb9332d95,
@@ -2502,6 +2502,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2013031518}
+    - target: {fileID: 5986492941628646132, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_Name
+      value: CloseButton
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 732bcd32f480b4397a8747cbb9332d95, type: 3}
 --- !u!1001 &8117585059861470281
