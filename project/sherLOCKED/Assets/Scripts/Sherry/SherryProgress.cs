@@ -37,14 +37,14 @@ public class SherryProgress : MonoBehaviour
     }
 
     // Reduce rep when a question is incorrectly answered
-    public void ReduceReputation(int reduce) {
-        currentReputation -= reduce;
+    public void DecreaceReputation(int value) {
+        currentReputation -= value;
         reputationBar.SetValue(currentReputation);
     }
 
     // Increace intuition when question is correctly answered
-    public void IncreaceIntuition(int increace) {
-        currentIntuition += increace;
+    public void IncreaceIntuition(int value) {
+        currentIntuition += value;
         intuitionBar.SetValue(currentIntuition);
     }
 
