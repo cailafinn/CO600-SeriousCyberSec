@@ -1621,46 +1621,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -5485993549826020215, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: -5485993549826020215, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: c185828ebd2fc4e7b8911b9c4d46c70e, type: 2}
-    - target: {fileID: -5485993549826020215, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -5485993549826020215, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -5485993549826020215, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_UsedByEffector
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600335235613395806, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600335235613395806, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600335235613395806, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5775625926783711412, guid: 4cca489188eb944529c65aa3be842bde,
         type: 3}
       propertyPath: m_RootOrder
@@ -1721,35 +1681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sherry
       objectReference: {fileID: 0}
-    - target: {fileID: 5775625926783711417, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5775625926783711417, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5775625926783711418, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: walkSpeed
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 5775625926783711419, guid: 4cca489188eb944529c65aa3be842bde,
         type: 3}
       propertyPath: m_SortingLayer
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5775625926783711419, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5775625926783711419, guid: 4cca489188eb944529c65aa3be842bde,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1567280385
       objectReference: {fileID: 0}
     - target: {fileID: 5821282855483285976, guid: 4cca489188eb944529c65aa3be842bde,
         type: 3}
@@ -1768,69 +1703,18 @@ PrefabInstance:
       objectReference: {fileID: 211719646}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cca489188eb944529c65aa3be842bde, type: 3}
---- !u!1 &1227612962 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5775625926783711417, guid: 4cca489188eb944529c65aa3be842bde,
-    type: 3}
-  m_PrefabInstance: {fileID: 1075760639}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1227612963 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5821282855483285976, guid: 4cca489188eb944529c65aa3be842bde,
     type: 3}
   m_PrefabInstance: {fileID: 1075760639}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1227612962}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48f11222f943f40f998819022b6b7a3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &1227612969
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1227612962}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 53e92faed20fe4ff08b48665b5530fc8, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &1227612970
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1227612962}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 1
-  m_Offset: {x: 0, y: -0.5}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.25}
-  m_EdgeRadius: 0
 --- !u!1 &1385569492
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,6 +2513,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4056692895349598893, guid: 89ba1c300096342159a11ed6d4bbf68a,
         type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056692895349598893, guid: 89ba1c300096342159a11ed6d4bbf68a,
+        type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
@@ -2645,7 +2534,7 @@ PrefabInstance:
     - target: {fileID: 8117585059525209250, guid: 89ba1c300096342159a11ed6d4bbf68a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 700
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8117585059562445602, guid: 89ba1c300096342159a11ed6d4bbf68a,
         type: 3}
