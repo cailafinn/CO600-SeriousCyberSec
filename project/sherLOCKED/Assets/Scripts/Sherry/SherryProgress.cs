@@ -5,22 +5,24 @@ using UnityEngine;
 public class SherryProgress : MonoBehaviour
 {
     // UI elements
-    public ProgBar intuitionBar;
-    public ProgBar reputationBar;
+    public ProgressBar intuitionBar;
+    public ProgressBar reputationBar;
 
     // Intution, increaced by correct answers
     private int currentIntuition;
-    private int maxIntuition = 100;
+    public int maxIntuition = 100;
 
     // Reputation, decreaced by incorrect answers
     private int currentReputation;
-    private int maxReputation = 100;
+    public int maxReputation = 100;
 
     // Start is called before the first frame update
     void Start()
     {
         currentIntuition = 0;
+        intuitionBar.SetValue(currentIntuition);
         currentReputation = 100;
+        reputationBar.SetValue(currentReputation);
     }
 
     // Update is called once per frame
