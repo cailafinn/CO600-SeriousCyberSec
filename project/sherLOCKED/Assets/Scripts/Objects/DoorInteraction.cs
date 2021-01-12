@@ -8,7 +8,6 @@ public class DoorInteraction : MonoBehaviour
     Vector3 playerPos;
 
     void Start() {
-
     }
 
     // checks if player is near a door
@@ -17,6 +16,10 @@ public class DoorInteraction : MonoBehaviour
     // player object is not deleted when the new room is loaded
     void OnTriggerEnter2D(Collider2D other)
     {
+        // Create a temporary reference of the current room
+        Scene currentRoom = SceneManager.GetActiveScene ();
+        // Get the name of this room
+        string roomName = currentRoom.name;
         if (other.gameObject.CompareTag("Player") && !inCollider)
         {
             inCollider = true;
@@ -26,7 +29,14 @@ public class DoorInteraction : MonoBehaviour
             playerPos.x = -3;
             playerPos.y = 2;
             other.gameObject.transform.position = playerPos;
-            SceneManager.LoadScene("DiningRoom");
+            if(roomName == "Hall")
+            {
+                SceneManager.LoadScene("DiningRoom");
+            }
+            else if(roomName == "DiningRoom")
+            {
+                SceneManager.LoadScene("Hall");
+            }
         }
     }
 
