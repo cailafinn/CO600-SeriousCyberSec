@@ -18,13 +18,15 @@ public class NpcInteraction : MonoBehaviour
         }
     }
 
+    // Things that happen after the npc is interacted with
     void Interact() {
         Animator anim = GetComponent<Animator>();
         anim.SetFloat("input_x", -player.GetComponent<Animator>().GetFloat("input_x"));
         anim.SetFloat("input_y", -player.GetComponent<Animator>().GetFloat("input_y"));
         Time.timeScale = 1;
     }
-
+    
+    // Check if the player enters the npc perimiter
     void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("Player") && !inCollider)
         {
@@ -33,8 +35,7 @@ public class NpcInteraction : MonoBehaviour
         }
     }
 
-    // checks if player leaves the object perimeter
-    // if player does leave the perimeter text prompt is removed
+    // checks if player leaves the npc perimeter
     void OnTriggerExit2D(Collider2D other) {
         if (other.gameObject.CompareTag("Player"))
         {
