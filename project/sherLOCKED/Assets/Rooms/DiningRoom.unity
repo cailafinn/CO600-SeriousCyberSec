@@ -295,6 +295,7 @@ GameObject:
   - component: {fileID: 538915735}
   - component: {fileID: 538915734}
   - component: {fileID: 538915736}
+  - component: {fileID: 538915737}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -1896,6 +1897,20 @@ EdgeCollider2D:
   - {x: -6.673936, y: -4.917847}
   - {x: -6.685562, y: 2.1407151}
   - {x: 6.6712174, y: 2.1792028}
+--- !u!114 &538915737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538915732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b486883f0c644b379f94a05bf34879a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sherryPrefab: {fileID: 5775625926783711417, guid: 4cca489188eb944529c65aa3be842bde,
+    type: 3}
 --- !u!1 &1057490460
 GameObject:
   m_ObjectHideFlags: 0
