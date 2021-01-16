@@ -9,6 +9,8 @@ public class ComputerInteraction : MonoBehaviour
     public Image yesButton;
     public Image noButton;
     public Text extraInfo;
+
+    public SherryProgress prog;
     
     // Private Variables
     private GameObject[] questionObjects;
@@ -40,6 +42,7 @@ public class ComputerInteraction : MonoBehaviour
             yesButton.color = Color.green;
             extraInfo.text = "Correct! This question is working.";
             answered = true;
+            prog.IncreaceIntuition(10);
         }
     }
 
@@ -48,6 +51,7 @@ public class ComputerInteraction : MonoBehaviour
             noButton.color = Color.red;
             extraInfo.text = "Incorrect. This question is working.";
             answered = true;
+            prog.DecreaceReputation(10);
         }
     }
 

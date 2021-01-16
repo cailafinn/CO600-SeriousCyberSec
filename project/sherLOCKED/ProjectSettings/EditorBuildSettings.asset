@@ -11,4 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rooms/DiningRoom.unity
     guid: 568faca37af9c4bd881a2b29a491e87e
+    path: Assets/Rooms/MainMenu.unity
+    guid: 8a2aa1057a291450695386e1796b827e
+  - enabled: 1
+    path: Assets/Rooms/Hall.unity
+    guid: ebae19286934e41d7985c33a7b1fb21c
   m_configObjects: {}
