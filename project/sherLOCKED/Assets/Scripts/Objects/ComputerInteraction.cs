@@ -85,6 +85,7 @@ public class ComputerInteraction : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && !inCollider)
         {
             inCollider = true;
+            prog = other.gameObject.GetComponent<SherryProgress>();
         }
     }
 

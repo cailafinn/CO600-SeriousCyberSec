@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Interactable
   - ShowAfterInteraction
-  - DoorInteractable
   layers:
   - Default
   - TransparentFX
