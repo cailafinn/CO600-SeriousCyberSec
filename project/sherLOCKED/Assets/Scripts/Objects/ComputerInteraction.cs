@@ -8,6 +8,7 @@ public class ComputerInteraction : MonoBehaviour
     // Public Variables
     public Image yesButton;
     public Image noButton;
+    public Image noButton2;
     public Text extraInfo;
 
     public SherryProgress prog;
@@ -40,18 +41,28 @@ public class ComputerInteraction : MonoBehaviour
     public void Correct() {
         if(!answered) {
             yesButton.color = Color.green;
-            extraInfo.text = "Correct! This question is working.";
+            extraInfo.text = "Correct! The answer is " + yesButton.GetComponentInChildren<Text>().text;  
+            // extraInfo.text = "Correct! This question is working.";
             answered = true;
-            prog.IncreaceIntuition(10);
+            prog.IncreaseIntuition(10);
         }
     }
 
     public void Incorrect() {
         if (!answered) {
             noButton.color = Color.red;
-            extraInfo.text = "Incorrect. This question is working.";
+            extraInfo.text = "Incorrect. The answer is " + yesButton.GetComponentInChildren<Text>().text;
             answered = true;
-            prog.DecreaceReputation(10);
+            prog.DecreaseReputation(10);
+        }
+    }
+    
+    public void Incorrect2() {
+        if (!answered) {
+            noButton2.color = Color.red;
+            extraInfo.text = "Incorrect. The answer is " + yesButton.GetComponentInChildren<Text>().text;
+            answered = true;
+            prog.DecreaseReputation(10);
         }
     }
 

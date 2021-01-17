@@ -308,6 +308,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 5986492940988071723}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &617910107 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7964052632946491758, guid: 732bcd32f480b4397a8747cbb9332d95,
+    type: 3}
+  m_PrefabInstance: {fileID: 5986492940988071723}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &661541035 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5986492940394196864, guid: 732bcd32f480b4397a8747cbb9332d95,
@@ -2147,6 +2159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yesButton: {fileID: 661541035}
   noButton: {fileID: 15731114}
+  noButton2: {fileID: 617910107}
   extraInfo: {fileID: 1047084749}
   prog: {fileID: 1227612963}
 --- !u!61 &2013031519
@@ -2424,6 +2437,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CloseButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 7394403724120255220, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2013031518}
+    - target: {fileID: 7394403724120255220, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Incorrect2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802214222906183144, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_Name
+      value: NoButton2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 732bcd32f480b4397a8747cbb9332d95, type: 3}
