@@ -116,7 +116,7 @@ public class DoorInteraction : MonoBehaviour
                 DontDestroyOnLoad(GameObject.Find("Canvas"));
             }
             else {
-                // Destroy(other.gameObject);
+                Destroy(other.gameObject);
                 DontDestroyOnLoad(GameObject.Find("Canvas"));
             }
         }
