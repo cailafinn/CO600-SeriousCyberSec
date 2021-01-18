@@ -56,7 +56,7 @@ public class ComputerInteraction : MonoBehaviour
             prog.DecreaseReputation(10);
         }
     }
-    
+
     public void Incorrect2() {
         if (!answered) {
             noButton2.color = Color.red;

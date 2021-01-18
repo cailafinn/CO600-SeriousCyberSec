@@ -1532,6 +1532,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1034908322 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5986492940962950001, guid: 732bcd32f480b4397a8747cbb9332d95,
+    type: 3}
+  m_PrefabInstance: {fileID: 5986492940988071723}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1047084749 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5986492940545098214, guid: 732bcd32f480b4397a8747cbb9332d95,
@@ -1872,6 +1884,7 @@ GameObject:
   - component: {fileID: 1666989458}
   - component: {fileID: 1666989457}
   - component: {fileID: 1666989459}
+  - component: {fileID: 1666989460}
   m_Layer: 0
   m_Name: cardboardBox (1)
   m_TagString: Untagged
@@ -1969,6 +1982,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1666989460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666989456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751cfabc68a384e529c54c9d9148dfbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  question: {fileID: 1034908322}
+  yesButton: {fileID: 661541035}
+  noButton: {fileID: 15731114}
+  noButton2: {fileID: 617910107}
+  extraInfo: {fileID: 1047084749}
+  prog: {fileID: 1227612963}
 --- !u!1 &1696028759
 GameObject:
   m_ObjectHideFlags: 0
@@ -2262,9 +2293,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2013031514}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88ec5d54266cf4cddbf8c0733416d368, type: 3}
+  m_Script: {fileID: 11500000, guid: 751cfabc68a384e529c54c9d9148dfbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  question: {fileID: 1034908322}
   yesButton: {fileID: 661541035}
   noButton: {fileID: 15731114}
   noButton2: {fileID: 617910107}
@@ -2416,16 +2448,56 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 890904183}
     m_Modifications:
+    - target: {fileID: 937613086800335644, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_Text
+      value: test
+      objectReference: {fileID: 0}
+    - target: {fileID: 5168616178070250927, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5986492940394196865, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2013031518}
+    - target: {fileID: 5986492940394196865, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Correct
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986492940483453704, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_Text
+      value: test
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986492940483453706, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986492940560339882, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_Text
+      value: test
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986492940962950001, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_Text
+      value: testing
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2013031518}
     - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2013031518}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Incorrect
+      objectReference: {fileID: 0}
     - target: {fileID: 5986492941132275449, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2541,6 +2613,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2013031518}
+    - target: {fileID: 5986492941628646090, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Resume
+      objectReference: {fileID: 0}
     - target: {fileID: 5986492941628646132, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_Name
