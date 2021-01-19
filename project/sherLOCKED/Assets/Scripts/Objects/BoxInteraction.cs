@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class ComputerInteraction : MonoBehaviour
+public class BoxInteraction : MonoBehaviour
 {
     // Public Variables
     public Image topAnswer;
@@ -24,7 +24,7 @@ public class ComputerInteraction : MonoBehaviour
     void Start()
     {
         HideQuestion();
-        correctAnswer = topAnswer;
+        correctAnswer = bottomAnswer;
     }
 
     // Update is called once per frame

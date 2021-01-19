@@ -4,12 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class ComputerInteraction : MonoBehaviour
+public class ObjectInteraction : MonoBehaviour
 {
     // Public Variables
     public Image topAnswer;
     public Image middleAnswer;
     public Image bottomAnswer;
+    public Image correctAnswer;
+    
     public TextMeshProUGUI extraInfo;
     public GameObject questionUI;
 
@@ -18,13 +20,11 @@ public class ComputerInteraction : MonoBehaviour
     // Private Variables
     private bool inCollider = false;
     private bool answered = false;
-    private Image correctAnswer;
 
     // Start is called before the first frame update
     void Start()
     {
         HideQuestion();
-        correctAnswer = topAnswer;
     }
 
     // Update is called once per frame
