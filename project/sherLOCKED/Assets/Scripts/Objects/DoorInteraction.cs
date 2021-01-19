@@ -26,20 +26,30 @@ public class DoorInteraction : MonoBehaviour
         string roomName = currentRoom.name;
         // Number of player objects in room
         var numOfPlayers = GameObject.FindGameObjectsWithTag("Player").Length;
+        // Number of progress bars
+        var numofBars = GameObject.FindGameObjectsWithTag("Canvas").Length;
         
         // for setting the player facing north -> for future use
         // facing = other.gameObject.GetComponent<Animator>();
 
+            
+        if(numofBars > 1 && roomName == "Hall"){
+            Destroy(GameObject.Find("Canvas"));
+        }
+
         if (other.gameObject.CompareTag("Player") && !inCollider)
         {
-            Debug.Log( "collide (name) : " + GameObject.Find("dining_door") );
+            Debug.Log( "its here (name) : " + numofBars );
             inCollider = true;
 
             if(roomName == "Hall" && this.name == "library_door")
             {
-                //setting player postion after they go through a door 
+                //setting player postion after they go through a door
                 other.gameObject.SetActive(false);
                 SceneManager.LoadScene("Library");
+                // DontDestroyOnLoad(GameObject.Find("Canvas"));
+                // SceneManager.MoveGameObjectToScene(GameObject.Find("Canvas"), SceneManager.GetSceneByName("Library"));
+                // DontDestroyOnLoad(GameObject.Find("Canvas"));
                 playerPos = transform.position;
                 playerPos.x = 4;
                 playerPos.y = 2;
@@ -54,6 +64,10 @@ public class DoorInteraction : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 SceneManager.LoadScene("DiningRoom");
+                // DontDestroyOnLoad(GameObject.Find("Canvas"));
+
+                // SceneManager.MoveGameObjectToScene(GameObject.Find("Canvas"), SceneManager.GetSceneByName("DiningRoom"));
+                // DontDestroyOnLoad(GameObject.Find("Canvas"));
                 playerPos = transform.position;
                 playerPos.x = -3;
                 playerPos.y = 2;
@@ -64,6 +78,10 @@ public class DoorInteraction : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 SceneManager.LoadScene("Hall");
+                // Destroy(GameObject.Find("Canvas"));
+
+                // SceneManager.MoveGameObjectToScene(GameObject.Find("Canvas"), SceneManager.GetSceneByName("Hall"));
+                // DontDestroyOnLoad(GameObject.Find("Canvas"));                
                 playerPos = transform.position;
                 playerPos.x = 4;
                 playerPos.y = 3;
@@ -78,6 +96,10 @@ public class DoorInteraction : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 SceneManager.LoadScene("Ballroom");
+                // DontDestroyOnLoad(GameObject.Find("Canvas"));
+
+                // SceneManager.MoveGameObjectToScene(GameObject.Find("Canvas"), SceneManager.GetSceneByName("Ballroom"));
+                // DontDestroyOnLoad(GameObject.Find("Canvas"));                     
                 playerPos = transform.position;
                 playerPos.x = 3;
                 playerPos.y = 2;
@@ -92,6 +114,10 @@ public class DoorInteraction : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 SceneManager.LoadScene("Hall");
+                // Destroy(GameObject.Find("Canvas"));
+
+                // SceneManager.MoveGameObjectToScene(GameObject.Find("Canvas"), SceneManager.GetSceneByName("Hall"));
+                // DontDestroyOnLoad(GameObject.Find("Canvas"));   
                 playerPos = transform.position;
                 playerPos.x = -2;
                 playerPos.y = 3;
@@ -102,6 +128,10 @@ public class DoorInteraction : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
                 SceneManager.LoadScene("DiningRoom");
+                // DontDestroyOnLoad(GameObject.Find("Canvas"));
+
+                // SceneManager.MoveGameObjectToScene(GameObject.Find("Canvas"), SceneManager.GetSceneByName("DiningRoom"));
+                // DontDestroyOnLoad(GameObject.Find("Canvas"));   
                 playerPos = transform.position;
                 playerPos.x = 3;
                 playerPos.y = 2;
@@ -109,16 +139,17 @@ public class DoorInteraction : MonoBehaviour
                 other.gameObject.SetActive(true);
             }
 
-
-            // Only destroy the player when loading the new scene if the player already exists
-            if(numOfPlayers == 1) {
+            // Only destroy the player when loading the new scene if the player already exists  || numofBars == 1
+            if(numOfPlayers == 1 ) {
                 DontDestroyOnLoad(other.gameObject);
+                // SceneManager.MoveGameObjectToScene(GameObject.Find("Canvas"), SceneManager.GetActiveScene ());
                 DontDestroyOnLoad(GameObject.Find("Canvas"));
             }
             else {
                 Destroy(other.gameObject);
-                DontDestroyOnLoad(GameObject.Find("Canvas"));
+                // Destroy(GameObject.Find("Canvas"));
             }
+
         }
     }
 

@@ -1525,6 +1525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sherryPrefab: {fileID: 5775625926783711417, guid: 4cca489188eb944529c65aa3be842bde,
     type: 3}
+  interactionSymbol: {fileID: 211719646}
 --- !u!224 &842221419 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8117585059562445602, guid: 89ba1c300096342159a11ed6d4bbf68a,
@@ -1545,7 +1546,7 @@ GameObject:
   - component: {fileID: 890904180}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Canvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
