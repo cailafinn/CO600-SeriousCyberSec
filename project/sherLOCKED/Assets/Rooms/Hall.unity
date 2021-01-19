@@ -792,11 +792,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5986492941628646090, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1435641939}
-    - target: {fileID: 5986492941628646090, guid: 732bcd32f480b4397a8747cbb9332d95,
-        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Resume
       objectReference: {fileID: 0}
