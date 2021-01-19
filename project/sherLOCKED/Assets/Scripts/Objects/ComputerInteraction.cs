@@ -2,26 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ComputerInteraction : MonoBehaviour
 {
     // Public Variables
-    public Image yesButton;
-    public Image noButton;
-    public Text extraInfo;
+    public Image topAnswer;
+    public Image middleAnswer;
+    public Image bottomAnswer;
+    public TextMeshProUGUI extraInfo;
+    public GameObject questionUI;
 
     public SherryProgress prog;
     
     // Private Variables
-    private GameObject[] questionObjects;
     private bool inCollider = false;
     private bool answered = false;
+    private Image correctAnswer;
 
     // Start is called before the first frame update
     void Start()
     {
-        questionObjects = GameObject.FindGameObjectsWithTag("ShowAfterInteraction");
         HideQuestion();
+        correctAnswer = topAnswer;
     }
 
     // Update is called once per frame
@@ -39,17 +42,18 @@ public class ComputerInteraction : MonoBehaviour
 
     public void Correct() {
         if(!answered) {
-            yesButton.color = Color.green;
-            extraInfo.text = "Correct! This question is working.";
+            correctAnswer.color = Color.green;
+            extraInfo.text = "That's it! Time to move on...";
             answered = true;
             prog.IncreaceIntuition(10);
         }
     }
 
-    public void Incorrect() {
+    public void Incorrect(Button button) {
         if (!answered) {
-            noButton.color = Color.red;
-            extraInfo.text = "Incorrect. This question is working.";
+            correctAnswer.color = Color.green;
+            button.GetComponent<Image>().color = Color.red;
+            extraInfo.text = "Whoops, my mistake. I hope Ginny didn't see that...";
             answered = true;
             prog.DecreaceReputation(10);
         }
@@ -65,16 +69,12 @@ public class ComputerInteraction : MonoBehaviour
 
     // Shows objects with the ShowAfterInteraction tag
     private void ShowQuestion() {
-        foreach (GameObject g in questionObjects) {
-            g.SetActive(true);
-        }
+        questionUI.SetActive(true);
     }
 
     // Hides objects with the ShowAfterInteraction tag
     private void HideQuestion() {
-        foreach (GameObject g in questionObjects) {
-            g.SetActive(false);
-        }
+        questionUI.SetActive(false);
     }
     
     // checks if player is near object
