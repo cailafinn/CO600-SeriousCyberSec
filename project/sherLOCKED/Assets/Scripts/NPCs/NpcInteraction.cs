@@ -8,6 +8,12 @@ public class NpcInteraction : MonoBehaviour
     private bool inCollider = false;
     private GameObject player;
 
+    public GameObject textBox;
+
+    void Start() {
+        textBox.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update() {
         if (inCollider) {
@@ -23,6 +29,8 @@ public class NpcInteraction : MonoBehaviour
         Animator anim = GetComponent<Animator>();
         anim.SetFloat("input_x", -player.GetComponent<Animator>().GetFloat("input_x"));
         anim.SetFloat("input_y", -player.GetComponent<Animator>().GetFloat("input_y"));
+        textBox.SetActive(true);
+        textBox.GetComponent<TextBoxController>().Interact();
         Time.timeScale = 1;
     }
     
