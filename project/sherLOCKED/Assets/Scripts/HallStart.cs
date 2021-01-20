@@ -17,7 +17,7 @@ public class HallStart : MonoBehaviour
             sherry.GetComponent<SherryProgress>().reputationBar = GameObject.Find("ReputationBar").GetComponent<ProgressBar>();
             sherry.transform.tag = "Player";
             sherry.GetComponent<Renderer>().sortingLayerName = "character";
-            sherry.GetComponent<Renderer>().sortingOrder = 2;
+            sherry.GetComponent<Renderer>().sortingOrder = 0;
         }
     }
 }
