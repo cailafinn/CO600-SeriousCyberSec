@@ -15,7 +15,7 @@ public class ObjectInteraction : MonoBehaviour
     public TextMeshProUGUI extraInfo;
     public GameObject questionUI;
 
-    public SherryProgress prog;
+    public ScoreManager prog;
     
     // Private Variables
     private bool inCollider = false;
@@ -25,6 +25,7 @@ public class ObjectInteraction : MonoBehaviour
     void Start()
     {
         HideQuestion();
+        prog = ScoreManager.Instance;
     }
 
     // Update is called once per frame
@@ -45,7 +46,7 @@ public class ObjectInteraction : MonoBehaviour
             correctAnswer.color = Color.green;
             extraInfo.text = "That's it! Time to move on...";
             answered = true;
-            prog.IncreaceIntuition(10);
+            prog.IncreaseIntuition();
         }
     }
 
@@ -55,7 +56,7 @@ public class ObjectInteraction : MonoBehaviour
             button.GetComponent<Image>().color = Color.red;
             extraInfo.text = "Whoops, my mistake. I hope Ginny didn't see that...";
             answered = true;
-            prog.DecreaceReputation(10);
+            prog.DecreaseReputation();
         }
     }
 
