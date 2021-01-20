@@ -1868,11 +1868,6 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
-    - target: {fileID: 5986492941628646090, guid: 732bcd32f480b4397a8747cbb9332d95,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5986492941628646132, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_Name
@@ -4600,6 +4595,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: sofa
       objectReference: {fileID: 0}
+    - target: {fileID: 3623090766605624558, guid: 295191143d1dd4fd38e5492e32e86c04,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 295191143d1dd4fd38e5492e32e86c04, type: 3}
 --- !u!1001 &5876676570384927003
@@ -4668,6 +4668,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: desk
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876676569723523534, guid: 8521ac42496b34adea61e6432eae0a34,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 6093462872647170057, guid: 8521ac42496b34adea61e6432eae0a34,
         type: 3}

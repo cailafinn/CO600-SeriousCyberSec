@@ -1556,6 +1556,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1173500331 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3968535175648945667, guid: 732bcd32f480b4397a8747cbb9332d95,
+    type: 3}
+  m_PrefabInstance: {fileID: 1173500327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1173500332 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5986492940394196864, guid: 732bcd32f480b4397a8747cbb9332d95,
+    type: 3}
+  m_PrefabInstance: {fileID: 1173500327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1173500333 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5986492940972340865, guid: 732bcd32f480b4397a8747cbb9332d95,
+    type: 3}
+  m_PrefabInstance: {fileID: 1173500327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1173500334 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1608092326255169323, guid: 732bcd32f480b4397a8747cbb9332d95,
+    type: 3}
+  m_PrefabInstance: {fileID: 1173500327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1173500335 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5228162259906570617, guid: 732bcd32f480b4397a8747cbb9332d95,
+    type: 3}
+  m_PrefabInstance: {fileID: 1173500327}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1268667306
 GameObject:
   m_ObjectHideFlags: 0
@@ -3920,9 +3974,11 @@ GameObject:
   - component: {fileID: 1788809273}
   - component: {fileID: 1788809272}
   - component: {fileID: 1788809274}
+  - component: {fileID: 1788809276}
+  - component: {fileID: 1788809275}
   m_Layer: 0
   m_Name: sofa
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4003,13 +4059,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9baed10a47540ad9e3e898b6267a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topAnswer: {fileID: 0}
-  middleAnswer: {fileID: 0}
-  bottomAnswer: {fileID: 0}
-  correctAnswer: {fileID: 0}
-  extraInfo: {fileID: 0}
-  questionUI: {fileID: 0}
+  topAnswer: {fileID: 1173500333}
+  middleAnswer: {fileID: 1173500332}
+  bottomAnswer: {fileID: 1173500334}
+  correctAnswer: {fileID: 1173500332}
+  extraInfo: {fileID: 1173500331}
+  questionUI: {fileID: 1173500335}
   prog: {fileID: 0}
+--- !u!61 &1788809275
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788809271}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 1}
+    newSize: {x: 2, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &1788809276
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788809271}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 1}
+    newSize: {x: 2, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &2576129884519980114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4021,6 +4129,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: portrait (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2576129884339663040, guid: 607622a6b8ff241d3b61c9035cf45142,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 2576129884339663046, guid: 607622a6b8ff241d3b61c9035cf45142,
         type: 3}
@@ -4145,6 +4258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: flowerPot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3757488856280875365, guid: 471910478388a4d84bf557af2d1c99b3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 471910478388a4d84bf557af2d1c99b3, type: 3}

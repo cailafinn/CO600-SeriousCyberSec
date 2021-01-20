@@ -17,11 +17,8 @@ public class TextBoxController : MonoBehaviour
     public bool open = false;
 
     private SherryMovement playerMovement;
-
-    public void Start() {
-        playerMovement = GameObject.Find("sherry").GetComponent<SherryMovement>();
-    }
     public void Interact() {
+        playerMovement = GameObject.Find("sherry_b1(Clone)").GetComponent<SherryMovement>();
         if (!open) {
             playerMovement.enabled = false;
             Focus(focuses[currentLine][0], focuses[currentLine][1]);
