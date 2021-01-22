@@ -53,3 +53,54 @@
     - *= Freedom from undesirable events in a system, either accidental or malicious*
     - *= Freedom from desirable events in a system, either accidental or malicious*
     - *= Freedom from desirable events in a computer, either accidental or malicious*
+
+## Level 2
+- "It looks like there was a vulnerability in the house's system - how would I define what a vulnerability is to Ginny?"
+    - *= Weakness in the system, could originate from design*
+    - *= Strength in the system, could originate from implementation*
+    - *= Weakness in the owner, could originate from context*
+
+- "I think Ginny is still under threat from the hacker - can you help me define it to her?"
+    - *= Circumstances or events that could potentially lead to harm or loss*
+    - *= Weakness in the system, could originate from design*
+    - *= Attempt to exploit a vulnerability*
+
+- "From this clue I'm deducting that there was an attempt to exploit a vulnerability - what does this define"
+    - *= Attack*
+    - *= Vulnerability*
+    - *= Threat*
+
+- "We need to get control back over this house for Ginny, what's the definition of control?"
+    - *= Used to remove or limit the vulnerability*
+    - *= Attempt to exploit a vulnerability*
+    - *= Circumstances or events that could potentially lead to harm or loss*
+
+- "I know there are 4 types of attackers, but what are they again?"
+    - *= Amateurs, Crackers, Hacktivists, Terrorists*
+    - *= Amateurs, Biscuits, Hacktivists, Terrorists*
+    - *= Amateurs, Cracker, Lacktivists, Terrorists*
+
+- "Security is so hard to get right, which of the following is a reason why?"
+    - *= Arms race, Weakest links, resistance against overheads*
+    - *= Arms wrestle, Weakest links, attacks "outside the box"*
+    - *= You are the weakest link, goodbye*
+
+- "I need to start thinking about which type of security attack occured in this house, which of the following types of security attacks?"
+    - *= Interception, Interruption, Modification, Fabrication*
+    - *= Interception, Investigationm, Modification, Fascination*
+    - *= Interception, Interruption, Modelisation, Fabrication*
+
+- "I think the hacker may have intercepted or eavesdropped to attck the house, whats a definition for this again?"
+    - *= An unauthorised party gains access to an asset*
+    - *= An asset is destroyed or becomes unavailable*
+    - *= An unauthorized party modifies an asset*
+
+- "There's many reasons why security is important, select a real reason"
+    - *= A legitimate user could be authenticated and then remove files from their server*
+    - *= The policeman said so*
+    - *= You could be directed to a safe website*
+
+- "This clue is suggesting a replay attack, how would you define a replay attack?"
+    - *= The attacker could send extra copies of your message*
+    - *= Even with originality guaranteed, an adversary could intercept your message and retransmit it with a delay*
+    - *= Even encrypted, an adversary could modify the message*
