@@ -65,7 +65,7 @@
     - *= Weakness in the system, could originate from design*
     - *= Attempt to exploit a vulnerability*
 
-- "From this clue I'm deducting that there was an attempt to exploit a vulnerability - what does this define"
+- "From this clue, I'm deducting that there was an attempt to exploit a vulnerability - what does this define"
     - *= Attack*
     - *= Vulnerability*
     - *= Threat*
@@ -85,17 +85,17 @@
     - *= Arms wrestle, Weakest links, attacks "outside the box"*
     - *= You are the weakest link, goodbye*
 
-- "I need to start thinking about which type of security attack occured in this house, which of the following types of security attacks?"
+- "I need to start thinking about which type of security attack occurred in this house, which of the following types of security attacks?"
     - *= Interception, Interruption, Modification, Fabrication*
-    - *= Interception, Investigationm, Modification, Fascination*
+    - *= Interception, Investigation, Modification, Fascination*
     - *= Interception, Interruption, Modelisation, Fabrication*
 
-- "I think the hacker may have intercepted or eavesdropped to attck the house, whats a definition for this again?"
+- "I think the hacker may have intercepted or eavesdropped to attack the house, whats a definition for this again?"
     - *= An unauthorised party gains access to an asset*
     - *= An asset is destroyed or becomes unavailable*
     - *= An unauthorized party modifies an asset*
 
-- "There's many reasons why security is important, select a real reason"
+- "There are many reasons why security is important, select a real reason"
     - *= A legitimate user could be authenticated and then remove files from their server*
     - *= The policeman said so*
     - *= You could be directed to a safe website*
