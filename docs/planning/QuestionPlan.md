@@ -104,3 +104,64 @@
     - *= The attacker could send extra copies of your message*
     - *= Even with originality guaranteed, an adversary could intercept your message and retransmit it with a delay*
     - *= Even encrypted, an adversary could modify the message*
+
+## Level 3
+- "I need to help Ginny secure the house from future security risks - how can I define a security risk to her?"
+    - *= A measure of the extent to which an entity is threatened by a potential circumstance or event, and typically a function of (i) the adverse impacts that would arise if the circumstance or event occurs; and (ii) the likelihood of occurrence*
+    - *= the quantitative evaluation of the combination of threat, vulnerability and impact for a given state of a system*
+    - *= A security risk is when you don't listen in lectures*
+
+- "I need to calculate the security risk for Ginny - what's the function I can use?"
+    - *= Threat x Probability x Business Impact = Risk*
+    - *= Threat + Probability + Business Impact = Risk*
+    - *= Threat x Probability / Business Impact = Risk*
+
+- "This clue looks like it has something of value to the house - what would it be defined as?"
+    - *= Asset*
+    - *= Impact*
+    - *= Vulnerability*
+
+- "This clue looks like it could impact the security of this house - which of the following define impact in terms of security?"
+    - *= negative consequences for an asset*
+    - *= something of value to the organisation*
+    - *= the likelihood that an attack will take place*
+
+- "How can I define what an attack probability is to Ginny?"
+    - *= the likelihood that an attack will take place*
+    - *= undesired exposure of stored information*
+    - *= something of value to the organisation*
+
+- "This clue shows we need to look at security risk management for the house - select the definition of security risk management"
+    - *= a comprehensive process that requires organizations to frame risk assess risk; respond to risk once determined; monitor risk on an ongoing basis*
+    - *= a method of presenting related information in the expression of a security risk*
+    - *= a method to pass an interview*
+
+- "This clue shows I need to think about the security risk management lifecycle - select the correct lifecycle"
+    - *= Identify -> Analyse -> Threat -> Monitor*
+    - *= Threat -> Analyse -> Identify -> Monitor*
+    - *= Identify -> Monitor -> Threat -> Analyse*
+
+- "I'm going to need to make security risk statements - but what are they?"
+    - *= a method of presenting related information in the expression of a security risk*
+    - *= a comprehensive process that requires organizations to frame risk assess risk; respond to risk once determined; monitor risk on an ongoing basis*
+    - *= Have I mentioned apple bobbing before?*
+
+- "Full impact variation can be difficult to carry out - what factors should I be careful of?"
+    - *= loss of confidentiality, loss of integrity/unavailability, indirect harm: impact on intangibles*
+    - *= loss of contemporary, loss of integrity/unavailability, indirect harm: impact on intangibles*
+    - *= loss of confidentiality, loss of integrity/unavailability, direct harm: impact on tangerines*
+
+- "This clue reminds me of factors of attack probability - which of the following is used to estimate the probability of an attack?"
+    - *= Estimated cost of the attack*
+    - *= Attentiveness of target*
+    - *= Estimated cost of defence*
+
+- "I should complete a security risk evaluation - select the correct definition"
+    - *= the process by which the output of the risk from the assessment is balanced and prioritised, and the response identified*
+    - *= a method of presenting related information in the expression of a security risk*
+    - *= the quantitative evaluation of the combination of threat, vulnerability and impact for a given state of a system*
+
+- "I need to help Ginny respond to the security risk evaluation - what are the responses she can give?"
+    - *= Avoid, Mitigate, Transfer, Accept*
+    - *= Avoid, Migrate, Transfer, Accept*
+    - *= Avoid, Mitigate, Transport, Accept*
