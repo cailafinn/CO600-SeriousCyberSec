@@ -165,3 +165,54 @@
     - *= Avoid, Mitigate, Transfer, Accept*
     - *= Avoid, Migrate, Transfer, Accept*
     - *= Avoid, Mitigate, Transport, Accept*
+
+## Level 4
+- "This clue has got me thinking about usable security but what's the definition of it?"
+    - *= A field concerned with making the security features of systems easy to understand and use*
+    - *= A field concerned with adapting the security features of systems hard to understand and use**
+    - *= Security that you can use*
+ 
+- "This clue reminds of usability features, I know there are 5 but what are they?"
+    - *= Learnability, Efficiency, Memorability, Errors, Satisfaction*
+    - *= Learnability, Effectability, Memorability, Errors, Satisfaction*
+    - *= Liveability, Efficiency, Memorability, Errors, Satisfaction*
+
+- "This clue reminds of the main problems of usable security. Select which of the following is a real problem?"
+    - *= Security interfaces tend to be too confusing and clumsy*
+    - *= Forcing informed security decisions on users*
+    - *= Security is usually a primary goal (and therefore users are unmotivated)*
+
+- "I want to give Ginny some guidelines for usable security - select the tip that is correct"
+    - *= Reduce mental load associated with cybersecurity system activities*
+    - *= Design such that security does reduce performance*
+    - *= Make security state invisible, and security functionality invisible and unaccessible*
+
+- "This clue reminds me about evaluation techniques - what are 2 evaluation techniques?"
+    - *= expert evaluation & user studies*
+    - *= basic evaluation & user studies*
+    - *= expert evaluation & group studies*
+
+- "This clue has got me thinking about expert evaluations, but they're not perfect. Which of the following is a drawback to expert evaluations?"
+    - *= Unlikely to discover unforeseen usability problems*
+    - *= Use of experts, allows focus on high-priority usability principles*
+    - *= They are smelly*
+
+- "I need to explain to Ginny the benefits of user studies - select the correct benefits to user studies"
+    - *= Interaction with the target group, supply rich sources of data*
+    - *= Time consuming, expensive, need to find willing participants*
+    - *= Use of experts, allows focus on high-priority usability principles*
+
+- "What are some examples of expert evaluation I can give to Ginny?"
+    - *= cognitive walkthrough & heuristic evaluations*
+    - *= laboratory-based user testing & questionnaires*
+    - *= interviews & observing users (one-way mirrors)*
+
+- "This clue is to do with usability features. Which option describes usability features"
+    - *= Usability is a central concept to HCI, which considers how easy a system is to use.*
+    - *= Usability is a central concept to HCI, which considers how difficult a system is to use.*
+    - *= Features that you can use*
+
+- "Someone once gave me a tip to do with usable security now what was it again?"
+    - *= Design such that security does not reduce performance*
+    - *= Increase the use of technical and security-specific terms and jargon*
+    - *= Make security state invisible, and security functionality invisible and unaccessible*
