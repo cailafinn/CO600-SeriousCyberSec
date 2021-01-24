@@ -85,7 +85,7 @@
     - *= Arms wrestle, Weakest links, attacks "outside the box"*
     - *= You are the weakest link, goodbye*
 
-- "I need to start thinking about which type of security attack occurred in this house, which of the following types of security attacks?"
+- "I need to start thinking about which type of security attack occurred in this house, which of the following are types of security attacks?"
     - *= Interception, Interruption, Modification, Fabrication*
     - *= Interception, Investigation, Modification, Fascination*
     - *= Interception, Interruption, Modelisation, Fabrication*
@@ -169,7 +169,7 @@
 ## Level 4
 - "This clue has got me thinking about usable security but what's the definition of it?"
     - *= A field concerned with making the security features of systems easy to understand and use*
-    - *= A field concerned with adapting the security features of systems hard to understand and use**
+    - *= A field concerned with adapting the security features of systems hard to understand and use*
     - *= Security that you can use*
  
 - "This clue reminds of usability features, I know there are 5 but what are they?"
@@ -185,7 +185,7 @@
 - "I want to give Ginny some guidelines for usable security - select the tip that is correct"
     - *= Reduce mental load associated with cybersecurity system activities*
     - *= Design such that security does reduce performance*
-    - *= Make security state invisible, and security functionality invisible and unaccessible*
+    - *= Make security state invisible, and security functionality invisible and inaccessible*
 
 - "This clue reminds me about evaluation techniques - what are 2 evaluation techniques?"
     - *= expert evaluation & user studies*
@@ -208,11 +208,11 @@
     - *= interviews & observing users (one-way mirrors)*
 
 - "This clue is to do with usability features. Which option describes usability features"
-    - *= Usability is a central concept to HCI, which considers how easy a system is to use.*
-    - *= Usability is a central concept to HCI, which considers how difficult a system is to use.*
+    - *= Usability is a central concept to HCI, which considers how easy a system is to use*
+    - *= A field concerned with making the security features of systems easy to understand and use*
     - *= Features that you can use*
 
 - "Someone once gave me a tip to do with usable security now what was it again?"
     - *= Design such that security does not reduce performance*
     - *= Increase the use of technical and security-specific terms and jargon*
-    - *= Make security state invisible, and security functionality invisible and unaccessible*
+    - *= Make security state invisible, and security functionality invisible and inaccessible*
