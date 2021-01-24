@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rooms/ServerRoom.unity
     guid: 24683dee352c642c6a9dd8d228087483
+  - enabled: 1
+    path: Assets/Rooms/PreHall.unity
+    guid: 184acd9d900844866a9092d438608fc0
   m_configObjects: {}
