@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Rooms/_preload.unity
+    guid: 513b799ef13e340ba9e8d1a66cfde198
+  - enabled: 1
     path: Assets/Rooms/MainMenu.unity
     guid: 8a2aa1057a291450695386e1796b827e
   - enabled: 1
@@ -20,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rooms/Ballroom.unity
     guid: 475ef2cf488914c3d80f37e6ae34b416
+  - enabled: 1
+    path: Assets/Rooms/ServerRoom.unity
+    guid: 24683dee352c642c6a9dd8d228087483
   m_configObjects: {}
