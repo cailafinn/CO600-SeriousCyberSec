@@ -35,7 +35,7 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void level1() {
-        SceneManager.LoadScene("Hall");
+        SceneManager.LoadScene("PreHall");
     }
 
     public void level2() {
