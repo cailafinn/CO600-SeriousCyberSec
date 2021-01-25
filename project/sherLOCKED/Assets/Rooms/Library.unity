@@ -1265,7 +1265,6 @@ MonoBehaviour:
   correctAnswer: {fileID: 258502722}
   extraInfo: {fileID: 258502717}
   questionUI: {fileID: 258502723}
-  prog: {fileID: 0}
 --- !u!61 &678754350
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2120,7 +2119,6 @@ MonoBehaviour:
   correctAnswer: {fileID: 1243654875}
   extraInfo: {fileID: 1243654874}
   questionUI: {fileID: 1243654878}
-  prog: {fileID: 0}
 --- !u!1 &1346466891
 GameObject:
   m_ObjectHideFlags: 0
@@ -4780,7 +4778,7 @@ PrefabInstance:
     - target: {fileID: 3623090766605624558, guid: 295191143d1dd4fd38e5492e32e86c04,
         type: 3}
       propertyPath: m_Name
-      value: sofa
+      value: LibSofa
       objectReference: {fileID: 0}
     - target: {fileID: 3623090766605624558, guid: 295191143d1dd4fd38e5492e32e86c04,
         type: 3}
@@ -4864,7 +4862,7 @@ PrefabInstance:
     - target: {fileID: 5876676569723523534, guid: 8521ac42496b34adea61e6432eae0a34,
         type: 3}
       propertyPath: m_Name
-      value: desk
+      value: LibDesk
       objectReference: {fileID: 0}
     - target: {fileID: 5876676569723523534, guid: 8521ac42496b34adea61e6432eae0a34,
         type: 3}
@@ -4925,7 +4923,7 @@ PrefabInstance:
     - target: {fileID: 6937054347266117620, guid: a4975928f44e44d24abe691b8007eaed,
         type: 3}
       propertyPath: m_Name
-      value: bookcase (1)
+      value: LibBookcase
       objectReference: {fileID: 0}
     - target: {fileID: 6937054347266117621, guid: a4975928f44e44d24abe691b8007eaed,
         type: 3}

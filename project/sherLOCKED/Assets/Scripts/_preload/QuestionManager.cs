@@ -7,7 +7,7 @@ public class QuestionManager : MonoBehaviour
     // Singleton instance accessor
     public static QuestionManager Instance { get; private set;}
     
-    private List<GameObject> interacted = new List<GameObject>();
+    private List<string> interacted = new List<string>();
 
     void Awake() {
         if (Instance == null) {
@@ -17,7 +17,7 @@ public class QuestionManager : MonoBehaviour
         }
     }
 
-    public bool IsAnswered(GameObject toCheck) {
+    public bool IsAnswered(string toCheck) {
         return interacted.Contains(toCheck);
     }
 
@@ -25,7 +25,7 @@ public class QuestionManager : MonoBehaviour
         interacted.Clear();
     }
 
-    public void AddAnswered(GameObject toAdd) {
+    public void AddAnswered(string toAdd) {
         interacted.Add(toAdd);
     }
 }

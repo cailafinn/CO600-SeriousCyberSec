@@ -430,7 +430,6 @@ MonoBehaviour:
   correctAnswer: {fileID: 1315421949}
   extraInfo: {fileID: 1315421944}
   questionUI: {fileID: 1315421950}
-  prog: {fileID: 0}
 --- !u!1 &441950322
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,7 +628,6 @@ MonoBehaviour:
   correctAnswer: {fileID: 1168479053}
   extraInfo: {fileID: 1168479051}
   questionUI: {fileID: 1168479055}
-  prog: {fileID: 0}
 --- !u!1001 &1168479049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4004,7 +4002,7 @@ GameObject:
   - component: {fileID: 1788809276}
   - component: {fileID: 1788809275}
   m_Layer: 0
-  m_Name: sofa
+  m_Name: BallSofa
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4092,7 +4090,6 @@ MonoBehaviour:
   correctAnswer: {fileID: 1173500332}
   extraInfo: {fileID: 1173500331}
   questionUI: {fileID: 1173500335}
-  prog: {fileID: 0}
 --- !u!61 &1788809275
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4155,7 +4152,7 @@ PrefabInstance:
     - target: {fileID: 2576129884339663040, guid: 607622a6b8ff241d3b61c9035cf45142,
         type: 3}
       propertyPath: m_Name
-      value: portrait (1)
+      value: BallPortrait
       objectReference: {fileID: 0}
     - target: {fileID: 2576129884339663040, guid: 607622a6b8ff241d3b61c9035cf45142,
         type: 3}
@@ -4294,7 +4291,7 @@ PrefabInstance:
     - target: {fileID: 3757488856280875365, guid: 471910478388a4d84bf557af2d1c99b3,
         type: 3}
       propertyPath: m_Name
-      value: flowerPot
+      value: BallFlowerPot
       objectReference: {fileID: 0}
     - target: {fileID: 3757488856280875365, guid: 471910478388a4d84bf557af2d1c99b3,
         type: 3}

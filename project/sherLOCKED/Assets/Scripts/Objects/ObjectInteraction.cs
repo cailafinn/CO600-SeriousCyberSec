@@ -16,6 +16,7 @@ public class ObjectInteraction : MonoBehaviour
     public GameObject questionUI;
 
     private ScoreManager prog;
+    private QuestionManager qManager;
     
     // Private Variables
     private bool inCollider = false;
@@ -26,12 +27,13 @@ public class ObjectInteraction : MonoBehaviour
     {
         HideQuestion();
         prog = ScoreManager.Instance;
+        qManager = QuestionManager.Instance;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (inCollider)
+        if (inCollider && !qManager.IsAnswered(this.gameObject.name))
         {
             if (Input.GetKeyDown("e") || Input.GetKeyDown("space"))
             {
@@ -47,6 +49,7 @@ public class ObjectInteraction : MonoBehaviour
             extraInfo.text = "That's it! Time to move on...";
             answered = true;
             prog.IncreaseIntuition();
+            qManager.AddAnswered(this.gameObject.name);
         }
     }
 
@@ -57,6 +60,7 @@ public class ObjectInteraction : MonoBehaviour
             extraInfo.text = "Whoops, my mistake. I hope Ginny didn't see that...";
             answered = true;
             prog.DecreaseReputation();
+            qManager.AddAnswered(this.gameObject.name);
         }
     }
 

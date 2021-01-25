@@ -2525,7 +2525,7 @@ GameObject:
   - component: {fileID: 2013031519}
   - component: {fileID: 2013031520}
   m_Layer: 0
-  m_Name: desk
+  m_Name: HallDesk
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2851,7 +2851,7 @@ PrefabInstance:
     - target: {fileID: 2306804121684800427, guid: aedfc4a250e174620ac12d655bd4d085,
         type: 3}
       propertyPath: m_Name
-      value: cardboardBox
+      value: HallCardboardBox
       objectReference: {fileID: 0}
     - target: {fileID: 2306804121684800427, guid: aedfc4a250e174620ac12d655bd4d085,
         type: 3}

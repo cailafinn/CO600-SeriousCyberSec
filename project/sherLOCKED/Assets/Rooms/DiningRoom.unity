@@ -220,7 +220,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
+    oldSize: {x: 2, y: 1}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2455,7 +2455,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
+    oldSize: {x: 2, y: 1}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2584,7 +2584,7 @@ PrefabInstance:
     - target: {fileID: 2576129884339663040, guid: 607622a6b8ff241d3b61c9035cf45142,
         type: 3}
       propertyPath: m_Name
-      value: portrait (3)
+      value: DiningPortrait
       objectReference: {fileID: 0}
     - target: {fileID: 2576129884339663040, guid: 607622a6b8ff241d3b61c9035cf45142,
         type: 3}
@@ -2672,7 +2672,6 @@ MonoBehaviour:
   correctAnswer: {fileID: 6523695637907599024}
   extraInfo: {fileID: 6523695637907599020}
   questionUI: {fileID: 6523695637907599026}
-  prog: {fileID: 0}
 --- !u!1 &1912844503
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,7 +2767,7 @@ GameObject:
   - component: {fileID: 1990637893}
   - component: {fileID: 1990637892}
   m_Layer: 0
-  m_Name: diningTable (1)
+  m_Name: DiningDiningTable
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2856,7 +2855,6 @@ MonoBehaviour:
   correctAnswer: {fileID: 692596680516396698}
   extraInfo: {fileID: 692596680516396696}
   questionUI: {fileID: 692596680516396700}
-  prog: {fileID: 0}
 --- !u!61 &1990637893
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2874,7 +2872,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
+    oldSize: {x: 2, y: 1}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2900,7 +2898,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
+    oldSize: {x: 2, y: 1}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
