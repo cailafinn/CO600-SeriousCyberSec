@@ -15,7 +15,7 @@ public class ObjectInteraction : MonoBehaviour
     public TextMeshProUGUI extraInfo;
     public GameObject questionUI;
 
-    public ScoreManager prog;
+    private ScoreManager prog;
     
     // Private Variables
     private bool inCollider = false;
