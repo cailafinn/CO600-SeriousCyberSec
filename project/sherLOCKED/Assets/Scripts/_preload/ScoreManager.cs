@@ -25,7 +25,7 @@ public class ScoreManager : MonoBehaviour
     {
         if (currentRep <= 0) {
             print("LOSE!");
-        } else if (currentInt >= 100){
+        } else if (currentInt >= maxInt){
             print("WIN!");
         }
     }
@@ -39,6 +39,13 @@ public class ScoreManager : MonoBehaviour
     public void IncreaseIntuition() {
         currentInt += nextInt;
         nextInt = 10;
+        GameObject.Find("IntuitionBar").GetComponent<ProgressBar>().SetValue(currentInt);
+    }
+
+    public void Reset() {
+        currentInt = 0;
+        currentRep = maxRep;
+        GameObject.Find("ReputationBar").GetComponent<ProgressBar>().SetValue(currentRep);
         GameObject.Find("IntuitionBar").GetComponent<ProgressBar>().SetValue(currentInt);
     }
 }
