@@ -36,7 +36,7 @@ public class ScoreManager : MonoBehaviour
         if(playing) {
             if (currentRep <= 0) {
                 LevelEnd();
-            } else if (currentInt >= 10){
+            } else if (currentInt >= maxInt){
                 won = true;
                 LevelEnd();
             }
