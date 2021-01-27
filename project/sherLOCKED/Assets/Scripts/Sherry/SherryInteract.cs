@@ -6,11 +6,10 @@ using UnityEngine.UI;
 
 public class SherryInteract : MonoBehaviour
 {
-    public GameObject interact;
     private bool inCollider = false;
 
     void Start() {
-        interact.SetActive(false);
+        UIManager.Instance.SetInteractionVisible(false);
     }
 
     // checks if player is near object
@@ -21,7 +20,7 @@ public class SherryInteract : MonoBehaviour
         if (other.gameObject.CompareTag("Interactable") && !inCollider && !QuestionManager.Instance.IsAnswered(other.gameObject.name))
         {
             inCollider = true;
-            interact.SetActive(true);
+            UIManager.Instance.SetInteractionVisible(true);
         }
     }
 
@@ -32,7 +31,7 @@ public class SherryInteract : MonoBehaviour
         if (other.gameObject.CompareTag("Interactable"))
         {
             inCollider = false;
-            interact.SetActive(false);
+            UIManager.Instance.SetInteractionVisible(false);
         }
     }
 

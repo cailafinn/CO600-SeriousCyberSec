@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     
     private GameObject intuitionBar;
     private GameObject reputationBar;
+    private GameObject interactionSymbol;
 
 
     // Start is called before the first frame update
@@ -18,6 +19,7 @@ public class UIManager : MonoBehaviour
         DontDestroyOnLoad(GameObject.Find("Canvas"));
         intuitionBar = GameObject.Find("IntuitionBar");
         reputationBar = GameObject.Find("ReputationBar");
+        interactionSymbol = GameObject.Find("interactionSymbol");
         SetGameUIVisible(false);
     }
 
@@ -36,6 +38,10 @@ public class UIManager : MonoBehaviour
     public void ResetValues() {
         intuitionBar.GetComponent<ProgressBar>().SetValue(0);
         reputationBar.GetComponent<ProgressBar>().SetValue(50);
+    }
+
+    public void SetInteractionVisible(bool visible) {
+        interactionSymbol.SetActive(visible);
     }
 
 }

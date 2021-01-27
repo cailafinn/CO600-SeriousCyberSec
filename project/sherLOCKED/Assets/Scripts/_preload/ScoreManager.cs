@@ -69,6 +69,8 @@ public class ScoreManager : MonoBehaviour
     }
 
     public void Reset() {
+        Time.timeScale = 1;
+        playing = true;
         levelStart = DateTime.Now;
         levelTime = TimeSpan.Zero;
         correctAnswers = 0;
@@ -81,6 +83,7 @@ public class ScoreManager : MonoBehaviour
         UIManager.Instance.SetGameUIVisible(false);
         playing = false;
         levelTime = DateTime.Now.Subtract(levelStart);
+        Destroy(GameObject.Find("sherry_b1(Clone)"));
         UnityEngine.SceneManagement.SceneManager.LoadScene("LevelEnd");
     }
 }
