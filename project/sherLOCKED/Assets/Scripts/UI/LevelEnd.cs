@@ -1,18 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class LevelEnd : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject fail;
+    public GameObject succeed;
 
-    // Update is called once per frame
-    void Update()
+    public TextMeshProUGUI correctAnswers;
+    public TextMeshProUGUI levelTime;
+
+    void Awake()
     {
-        
+        if (ScoreManager.Instance.GetWon()) {
+            fail.SetActive(false);
+            succeed.SetActive(true);
+        } else {
+            fail.SetActive(true);
+            succeed.SetActive(false);
+        }
+        correctAnswers.text = ScoreManager.Instance.GetCorrectAnswers() + "/10";
+        levelTime.text = ScoreManager.Instance.GetLevelTime().Hours + ":" + ScoreManager.Instance.GetLevelTime().Minutes + ":" + ScoreManager.Instance.GetLevelTime().Seconds;
     }
 }

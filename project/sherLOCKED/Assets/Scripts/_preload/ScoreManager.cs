@@ -14,9 +14,14 @@ public class ScoreManager : MonoBehaviour
     private int maxRep = 50;
     private int nextInt = 10;
 
-    private DateTime levelStart;
+    private int correctAnswers = 0;
 
+    private DateTime levelStart;
     private TimeSpan levelTime;
+
+    private bool won = false;
+
+    private bool playing = true;
 
     void Awake() {
         if (Instance == null) {
@@ -28,12 +33,13 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentRep <= 0) {
-            LevelEnd();
-            UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
-        } else if (currentInt >= maxInt){
-            LevelEnd();
-            UnityEngine.SceneManagement.SceneManager.LoadScene("LevelEnd");
+        if(playing) {
+            if (currentRep <= 0) {
+                LevelEnd();
+            } else if (currentInt >= 10){
+                won = true;
+                LevelEnd();
+            }
         }
     }
 
@@ -46,19 +52,35 @@ public class ScoreManager : MonoBehaviour
     public void IncreaseIntuition() {
         currentInt += nextInt;
         nextInt = 10;
+        correctAnswers++;
         GameObject.Find("IntuitionBar").GetComponent<ProgressBar>().SetValue(currentInt);
+    }
+
+    public TimeSpan GetLevelTime() {
+        return levelTime;
+    }
+
+    public int GetCorrectAnswers() {
+        return correctAnswers;
+    }
+
+    public bool GetWon() {
+        return won;
     }
 
     public void Reset() {
         levelStart = DateTime.Now;
         levelTime = TimeSpan.Zero;
+        correctAnswers = 0;
         currentInt = 0;
         currentRep = maxRep;
-        GameObject.Find("ReputationBar").GetComponent<ProgressBar>().SetValue(currentRep);
-        GameObject.Find("IntuitionBar").GetComponent<ProgressBar>().SetValue(currentInt);
+        UIManager.Instance.ResetValues();
     }
 
     private void LevelEnd() {
-        levelTime = DateTime.Now - levelStart;
+        UIManager.Instance.SetGameUIVisible(false);
+        playing = false;
+        levelTime = DateTime.Now.Subtract(levelStart);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("LevelEnd");
     }
 }

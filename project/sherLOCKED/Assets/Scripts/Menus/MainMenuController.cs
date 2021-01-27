@@ -35,7 +35,9 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void level1() {
-        SceneManager.LoadScene("PreHall");
+        ScoreManager.Instance.Reset();
+        UIManager.Instance.SetGameUIVisible(true);
+        SceneManager.LoadScene("Hall");
     }
 
     public void level2() {
