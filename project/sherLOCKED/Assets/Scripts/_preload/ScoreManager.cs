@@ -77,6 +77,7 @@ public class ScoreManager : MonoBehaviour
         currentInt = 0;
         currentRep = maxRep;
         UIManager.Instance.ResetValues();
+        QuestionManager.Instance.ClearList();
     }
 
     private void LevelEnd() {
