@@ -53,3 +53,6 @@ TagManager:
   - name: character
     uniqueID: 2727686911
     locked: 0
+  - name: minimap
+    uniqueID: 4213733707
+    locked: 0
