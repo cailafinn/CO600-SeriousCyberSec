@@ -1,7 +1,6 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEditor.Animations;
 using UnityEditor;
 using System.Collections;
 
