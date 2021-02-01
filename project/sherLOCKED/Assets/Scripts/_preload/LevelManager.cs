@@ -7,6 +7,8 @@ public class LevelManager : MonoBehaviour
     public static LevelManager Instance { get; private set;}
     private Dictionary<int, bool> levels = new Dictionary<int, bool>();
 
+    private int currentLevel;
+
     void Awake() {
         if (Instance == null) {
             Instance = this;
@@ -29,5 +31,13 @@ public class LevelManager : MonoBehaviour
 
     public void SetComplete(int level) {
         levels[level] = true;
+    }
+
+    public void SetComplete() {
+        levels[currentLevel] = true;
+    }
+
+    public void SetCurrentLevel(int level) {
+        currentLevel = level;
     }
 }

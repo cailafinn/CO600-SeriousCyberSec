@@ -37,6 +37,7 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void level1() {
+        LevelManager.Instance.SetCurrentLevel(1);
         ScoreManager.Instance.Reset();
         UIManager.Instance.SetGameUIVisible(true);
         SceneManager.LoadScene("Hall");
