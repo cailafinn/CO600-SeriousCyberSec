@@ -16,7 +16,7 @@ public class LevelManager : MonoBehaviour
     }
 
     void Start() {
-        levels.Add(1, true);
+        levels.Add(1, false);
         levels.Add(2, false);
         levels.Add(3, false);
         levels.Add(4, false);
