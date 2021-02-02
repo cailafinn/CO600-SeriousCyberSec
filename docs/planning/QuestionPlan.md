@@ -70,7 +70,7 @@
     - *= Vulnerability*
     - *= Threat*
 
-- "We need to secure security control over this house for Ginny, what's the meaning of control?"
+- "We need to secure security control over this house for Ginny, what's the meaning of security control?"
     - *= Used to remove or limit the vulnerability*
     - *= Attempt to exploit a vulnerability*
     - *= Circumstances or events that could potentially lead to harm or loss*
