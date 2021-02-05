@@ -38,6 +38,7 @@ public class ScoreManager : MonoBehaviour
                 LevelEnd();
             } else if (currentInt >= maxInt){
                 won = true;
+                LevelManager.Instance.SetComplete();
                 LevelEnd();
             }
         }
