@@ -41,7 +41,9 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void level2() {
-        
+        ScoreManager.Instance.Reset();
+        UIManager.Instance.SetGameUIVisible(true);
+        SceneManager.LoadScene("ServerRoom");
     }
 
     public void level3() {
