@@ -4,7 +4,7 @@
 - Each level should have at least 10 questions.
 
 ## Case 1 – Lecture 1: Security Properties
-- “First things first, I need to see what went wrong with the security in the house. I need to define the CIA triad – now what does it stand for?”
+- “First things first, I need to see what went wrong with the security in the house. I need to look at the CIA triad – now what does it stand for?”
     - *= Confidentiality, Integrity, Availability*
     - *= Confidentiality, Integrity, Authentication*
     - *= Competence, Identity, Availability*
@@ -65,7 +65,7 @@
     - *= Weakness in the system, could originate from design*
     - *= Attempt to exploit a vulnerability*
 
-- "From this clue, I'm deducting that there was an attempt to exploit a vulnerability - what does this define"
+- "From this clue, I'm deducting that there was an attempt to exploit a vulnerability - what does this describe?"
     - *= Attack*
     - *= Vulnerability*
     - *= Threat*
@@ -100,7 +100,7 @@
     - *= The policeman said so*
     - *= A legitimate user could be authenticated*
 
-- "This clue is suggesting a replay attack, how would you define a replay attack?"
+- "This clue is suggesting a replay attack, how would you clsssify a replay attack?"
     - *= The attacker could send extra copies of your message*
     - *= Even with originality guaranteed, an adversary could intercept your message and retransmit it with a delay*
     - *= Even encrypted, an adversary could modify the message*
@@ -156,7 +156,7 @@
     - *= Attentiveness of target*
     - *= Estimated cost of defence*
 
-- "I should complete a security risk evaluation - select the correct definition"
+- "I should complete a security risk evaluation - select the correct technique used to complete a security risk evaluation"
     - *= the process by which the output of the risk from the assessment is balanced and prioritised, and the response identified*
     - *= a method of presenting related information in the expression of a security risk*
     - *= the quantitative evaluation of the combination of threat, vulnerability and impact for a given state of a system*

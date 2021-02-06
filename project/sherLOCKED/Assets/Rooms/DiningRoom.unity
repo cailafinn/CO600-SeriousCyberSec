@@ -3003,13 +3003,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Hmmm let's look at cyber security in more detail. The collection of
-        what can be used to protect the cyber environment, organisation and user's
+        what, can be used to protect the cyber environment, organisation and user's
         assets?
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 893663807868246206, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3542,7 +3547,7 @@ PrefabInstance:
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: This reminds me of non-repudiditation. But what's its definition?
+      value: This reminds me of non-repudiation. But what's the meaning of non-repudiation?
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}

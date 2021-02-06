@@ -1602,7 +1602,7 @@ PrefabInstance:
       propertyPath: m_text
       value: Interesting, the automated functions have stopped working. I think it's
         to do with the availability element of the CIA triad. I'm sure I remember
-        the definition...
+        the meaning...
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -2402,7 +2402,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Hmmm, it looks like the victim, Ginny, had granted someone permission
-        to access a file, what is the name of this process?
+        to access a file, what is the name of the related security service?
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -2442,7 +2442,7 @@ PrefabInstance:
     - target: {fileID: 2066714285757505256, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: Apple bobbing
+      value: Non-repudiation
       objectReference: {fileID: 0}
     - target: {fileID: 2291178382361193927, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
