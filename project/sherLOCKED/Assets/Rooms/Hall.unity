@@ -323,6 +323,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextRoom: Library
+  xPos: 4
+  yPos: -3.3
 --- !u!61 &525417077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2160,6 +2163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextRoom: DiningRoom
+  xPos: -3
+  yPos: -3.3
 --- !u!61 &1045581207
 BoxCollider2D:
   m_ObjectHideFlags: 0
