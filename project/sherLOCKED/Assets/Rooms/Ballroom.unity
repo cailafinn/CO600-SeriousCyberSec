@@ -719,8 +719,8 @@ PrefabInstance:
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: I wonder if the hacker managed to gain authentication? What was its
-        definition again?
+      value: I wonder if the hacker managed to authenticate? Select what you think
+        authentication refers to
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -1941,14 +1941,12 @@ PrefabInstance:
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: 'An apple a day keeps the doctor away
-
-'
+      value: A measure of how well a system resists misuse from hackers
       objectReference: {fileID: 0}
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
-      value: 71.1
+      value: 47.9
       objectReference: {fileID: 0}
     - target: {fileID: 5228162259906570617, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
