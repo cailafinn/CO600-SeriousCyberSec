@@ -70,7 +70,7 @@
     - *= Vulnerability*
     - *= Threat*
 
-- "We need to get control back over this house for Ginny, what's the definition of control?"
+- "We need to secure security control over this house for Ginny, what's the meaning of security control?"
     - *= Used to remove or limit the vulnerability*
     - *= Attempt to exploit a vulnerability*
     - *= Circumstances or events that could potentially lead to harm or loss*
@@ -90,7 +90,7 @@
     - *= Interception, Investigation, Modification, Fascination*
     - *= Interception, Interruption, Modelisation, Fabrication*
 
-- "I think the hacker may have intercepted or eavesdropped to attack the house, whats a definition for this again?"
+- "I think the hacker may have intercepted or eavesdropped to attack the house, how would they have done this?"
     - *= An unauthorised party gains access to an asset*
     - *= An asset is destroyed or becomes unavailable*
     - *= An unauthorized party modifies an asset*
@@ -100,7 +100,7 @@
     - *= The policeman said so*
     - *= You could be directed to a safe website*
 
-- "This clue is suggesting a replay attack, how would you define a replay attack?"
+- "This clue is suggesting a replay attack, how would you classify a replay attack?"
     - *= The attacker could send extra copies of your message*
     - *= Even with originality guaranteed, an adversary could intercept your message and retransmit it with a delay*
     - *= Even encrypted, an adversary could modify the message*
