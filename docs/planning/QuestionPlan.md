@@ -216,3 +216,8 @@
     - *= Design such that security does not reduce performance*
     - *= Increase the use of technical and security-specific terms and jargon*
     - *= Make security state invisible, and security functionality invisible and inaccessible*
+
+- “Ginny needs a safer password. Which of the following would be the ‘best’ password?”
+	- *= kent.SL2021*
+	- *= rm445@jlsdVEb*
+	- *= p4$$w0rd*
