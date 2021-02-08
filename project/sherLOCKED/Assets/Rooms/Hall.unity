@@ -133,6 +133,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &16670846 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1379456726325261621, guid: 973a9e02b55ef41c2aac359a25c4b711,
+    type: 3}
+  m_PrefabInstance: {fileID: 806829882}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bfe548b3f7984f3991c8af63dc4a950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &77793567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,6 +1978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sherryPrefab: {fileID: 5775625926783711417, guid: 4cca489188eb944529c65aa3be842bde,
     type: 3}
+  introText: {fileID: 16670846}
 --- !u!1001 &806829882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1993,15 +2006,36 @@ PrefabInstance:
       propertyPath: story.Array.data[2]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1379456726325261621, guid: 973a9e02b55ef41c2aac359a25c4b711,
+        type: 3}
+      propertyPath: focusLeft.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379456726325261621, guid: 973a9e02b55ef41c2aac359a25c4b711,
+        type: 3}
+      propertyPath: focusLeft.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379456726325261621, guid: 973a9e02b55ef41c2aac359a25c4b711,
+        type: 3}
+      propertyPath: focusLeft.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024334560319478847, guid: 973a9e02b55ef41c2aac359a25c4b711,
+        type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5024334560319478847, guid: 973a9e02b55ef41c2aac359a25c4b711,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: c22fd8f90184846edad6189eed6722be,
+        type: 3}
     - target: {fileID: 5024334560319478847, guid: 973a9e02b55ef41c2aac359a25c4b711,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5024334561743993609, guid: 973a9e02b55ef41c2aac359a25c4b711,
         type: 3}
@@ -3217,6 +3251,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 890904183}
     m_Modifications:
+    - target: {fileID: 1379456726325261621, guid: 973a9e02b55ef41c2aac359a25c4b711,
+        type: 3}
+      propertyPath: focusLeft.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379456726325261621, guid: 973a9e02b55ef41c2aac359a25c4b711,
+        type: 3}
+      propertyPath: focusLeft.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379456726325261621, guid: 973a9e02b55ef41c2aac359a25c4b711,
+        type: 3}
+      propertyPath: focusLeft.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5024334561743993609, guid: 973a9e02b55ef41c2aac359a25c4b711,
         type: 3}
       propertyPath: m_Pivot.x
