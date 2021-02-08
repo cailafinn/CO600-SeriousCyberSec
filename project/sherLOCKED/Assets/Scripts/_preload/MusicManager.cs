@@ -19,7 +19,23 @@ public class MusicManager : MonoBehaviour
         }
     }
 
-    public void PlayMusic(AudioClip clip) {
+    public void PlayMenuMusic() {
+        musicSource.pitch = 1.25f;
+        musicSource.loop = true;
+        PlayMusic(menuMusic);
+    }
+
+    public void PlayGameMusic() {
+        musicSource.pitch = 1.0f;
+        musicSource.loop = true;
+        PlayMusic(gameMusic);
+    }
+
+    public void SetPitch(float pitch) {
+        musicSource.pitch = pitch;
+    }
+
+    private void PlayMusic(AudioClip clip) {
         musicSource.clip = clip;
         musicSource.Play();
     }
