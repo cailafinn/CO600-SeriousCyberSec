@@ -76,6 +76,7 @@ public class ScoreManager : MonoBehaviour
         levelTime = TimeSpan.Zero;
         correctAnswers = 0;
         currentInt = 0;
+        nextInt = 10;
         currentRep = maxRep;
         UIManager.Instance.ResetValues();
         QuestionManager.Instance.ClearList();
