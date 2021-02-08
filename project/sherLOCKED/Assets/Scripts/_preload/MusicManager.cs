@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
-    public AudioSource MusicSource;
+    public AudioSource musicSource;
+
+    public AudioClip menuMusic;
+    public AudioClip gameMusic;
 
     public static MusicManager Instance { get; private set;}
 
@@ -17,7 +20,7 @@ public class MusicManager : MonoBehaviour
     }
 
     public void PlayMusic(AudioClip clip) {
-        MusicSource.clip = clip;
-        MusicSource.Play();
+        musicSource.clip = clip;
+        musicSource.Play();
     }
 }
