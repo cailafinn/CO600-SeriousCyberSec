@@ -316,6 +316,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextRoom: DiningRoom
+  xPos: 3
+  yPos: 2
 --- !u!61 &214767245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -400,7 +403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214767243}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.95, y: 2.41, z: 0}
+  m_LocalPosition: {x: -4.84, y: -4.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -719,8 +722,8 @@ PrefabInstance:
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: I wonder if the hacker managed to gain authentication? What was its
-        definition again?
+      value: I wonder if the hacker managed to authenticate? Select what you think
+        authentication refers to
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -1941,14 +1944,12 @@ PrefabInstance:
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: 'An apple a day keeps the doctor away
-
-'
+      value: A measure of how well a system resists misuse from hackers
       objectReference: {fileID: 0}
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
-      value: 71.1
+      value: 47.9
       objectReference: {fileID: 0}
     - target: {fileID: 5228162259906570617, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}

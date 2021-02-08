@@ -461,7 +461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154765857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.17, y: 2.44, z: 0}
+  m_LocalPosition: {x: 4.14, y: -4.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -479,6 +479,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextRoom: Hall
+  xPos: -2
+  yPos: 3
 --- !u!61 &154765861
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1602,7 +1605,7 @@ PrefabInstance:
       propertyPath: m_text
       value: Interesting, the automated functions have stopped working. I think it's
         to do with the availability element of the CIA triad. I'm sure I remember
-        the definition...
+        the meaning...
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -2402,7 +2405,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Hmmm, it looks like the victim, Ginny, had granted someone permission
-        to access a file, what is the name of this process?
+        to access a file, what is the name of the related security service?
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -2442,7 +2445,7 @@ PrefabInstance:
     - target: {fileID: 2066714285757505256, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: Apple bobbing
+      value: Non-repudiation
       objectReference: {fileID: 0}
     - target: {fileID: 2291178382361193927, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}

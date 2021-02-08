@@ -306,7 +306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364354358}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.96, y: 2.5, z: 0}
+  m_LocalPosition: {x: -2.99, y: -4.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -324,6 +324,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextRoom: Hall
+  xPos: 3
+  yPos: 3
 --- !u!61 &364354362
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2062,6 +2065,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextRoom: Ballroom
+  xPos: -5
+  yPos: -3.3
 --- !u!61 &622699588
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3003,13 +3009,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Hmmm let's look at cyber security in more detail. The collection of
-        what can be used to protect the cyber environment, organisation and user's
+        what, can be used to protect the cyber environment, organisation and user's
         assets?
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 893663807868246206, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3542,7 +3553,7 @@ PrefabInstance:
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: This reminds me of non-repudiditation. But what's its definition?
+      value: This reminds me of non-repudiation. But what's the meaning of non-repudiation?
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}

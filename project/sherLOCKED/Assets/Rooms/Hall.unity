@@ -323,6 +323,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextRoom: Library
+  xPos: 4
+  yPos: -3.3
 --- !u!61 &525417077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -424,7 +427,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Let's look at confidentiality. Before I can find any clues that link
-        to it, I need to define it. Select the definition of confidentiality
+        to it, I need to define it. Select the security goals behind confidentiality
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -464,13 +467,12 @@ PrefabInstance:
     - target: {fileID: 2066714285757505256, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: preventing unauthorized disclosure of information. Includes secrecy,
-        privacy
+      value: preventing unauthorized disclosure of information
       objectReference: {fileID: 0}
     - target: {fileID: 2066714285757505256, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
-      value: 48.75
+      value: 53.6
       objectReference: {fileID: 0}
     - target: {fileID: 2291178382361193927, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -537,15 +539,20 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 72
       objectReference: {fileID: 0}
+    - target: {fileID: 4126204558395963584, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: preventing downtime of systems or inability to access data/information
+      value: preventing authorised disclosure of information in certain contexts
       objectReference: {fileID: 0}
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
-      value: 48.75
+      value: 42.45
       objectReference: {fileID: 0}
     - target: {fileID: 5590003368979181005, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -2156,6 +2163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextRoom: DiningRoom
+  xPos: -3
+  yPos: -3.3
 --- !u!61 &1045581207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3234,7 +3244,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: "First things first, I need to see what went wrong with the security
-        in the house. I need to define the CIA triad \u2013 now what does it stand
+        in the house. I need to look at the CIA triad \u2013 now what does it stand
         for?"
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
@@ -3355,7 +3365,12 @@ PrefabInstance:
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: Confidentiality, Identity, Acceptability
+      value: Confidentiality, Integrity, Authentication
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 68.4
       objectReference: {fileID: 0}
     - target: {fileID: 5228162259906570617, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}

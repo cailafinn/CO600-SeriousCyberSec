@@ -3,15 +3,15 @@
 - When adding questions to the game, the answers should be mixed up so that the correct answer is in a different position for each question to ensure there isn't a pattern for users to guess to aid learning.
 - Each level should have at least 10 questions.
 
-## Level 1
-- “First things first, I need to see what went wrong with the security in the house. I need to define the CIA triad – now what does it stand for?”
+## Case 1 – Lecture 1: Security Properties
+- “First things first, I need to see what went wrong with the security in the house. I need to look at the CIA triad – now what does it stand for?”
     - *= Confidentiality, Integrity, Availability*
-    - *= Confidentiality, Identity, Acceptability*
+    - *= Confidentiality, Integrity, Authentication*
     - *= Competence, Identity, Availability*
 
-- "Let's look at confidentiality. Before I can find any clues that link to it, I need to define it. Select the definition of confidentiality"
-    - *= preventing unauthorized disclosure of information. Includes secrecy, privacy*
-    - *= preventing downtime of systems or inability to access data/information*
+- "Let's look at confidentiality. Before I can find any clues that link to it, I need to define it. Select the security goals behind confidentiality"
+    - *= preventing unauthorized disclosure of information*
+    - *= preventing authorized disclosure of information in certain context*
     - *= preventing unauthorized modification of data and systems*
 
 - "Looking at this clue here reminds me of an element from the CIA triad, the definition of it is, 'it prevents unauthorised modification of data and systems' but which one of the elements does it belong to?"
@@ -19,32 +19,32 @@
     - *= Availability*
     - *= Identity*
 
-- "This clue is fascinating I think it's to do with the availability element of the CIA triad. I should check by looking at the definition. Select the definition of availability"
+- "This clue is fascinating I think it's to do with the availability element of the CIA triad. I should check by looking further. Select the meaning of availability"
     - *= preventing downtime of systems or inability to access data/information*
     - *= preventing unauthorized modification of data and systems*
     - *= preventing unauthorized disclosure of information. Includes secrecy, privacy*
 
-- "Hmmm, it looks like the victim, Ginny, had granted someone permission to access a file, what is the name of this process?"
+- "Hmmm, it looks like the victim, Ginny, had granted someone permission to access a file, what is the name of the related security service?"
     - *= Authorisation*
     - *= Authentication*
-    - *= Apple bobbing*
+    - *= Non-repudiation*
 
-- "I wonder if the hacker managed to gain authentication? Select the definition of authentication"
+- "I wonder if the hacker managed to authenticate? Select what you think authentication refers to"
     - *= the process of confirming the truth or correctness of the claimed artefact or identity*
     - *= the process of granting permission to someone/thing to do some action (e.g., access files)*
     - *= the process of hanging a picture on the wall*
 
-- "This clue looks linked to the factor Non-repudiation to me. Select the definition of non-repudiation"
+- "This clue looks linked to the factor Non-repudiation to me. Select the meaning of non-repudiation"
     - *= ability for parties to prove that a message has been sent by a specific person, and received by a specific person. Therefore neither party can claim they did not send/receive the message.*
     - *= the process of granting permission to someone/thing to do some action (e.g., access files)*
     - *= the process of confirming the truth or correctness of the claimed artefact or identity*
 
 - "This clue shows we should think about the computer security of this mansion. Select which of the following could be used to describe computer security"
     - *= A measure of how well a system resists misuse from either an insider or an outsider*
-    - *= An apple a day keeps the doctor away*
+    - *= A measure of how well a system resists misuse from hackers*
     - *= A measure of how well a system stores files*
  
-- "Hmmm let's look at cyber security in more detail. The collection of what can be used to protect the cyber environment, organisation and user's assets?"
+- "Hmmm let's look at cyber security in more detail. The collection of **what**, can be used to protect the cyber environment, organisation and user's assets?"
     - *= Collection of tools, policies, security concepts, security safeguards, guidelines, risk management approaches, actions, training, best practices, assurance and technologies*
     - *= Collection of connected computing devices, personnel, infrastructure, applications, services, telecommunications systems*
     - *= Collection of scout badges*
@@ -54,18 +54,18 @@
     - *= Freedom from desirable events in a system, either accidental or malicious*
     - *= Freedom from desirable events in a computer, either accidental or malicious*
 
-## Level 2
+## Case 2 – Lecture 2: Security Services and Attacks
 - "It looks like there was a vulnerability in the house's system - how would I define what a vulnerability is to Ginny?"
     - *= Weakness in the system, could originate from design*
     - *= Strength in the system, could originate from implementation*
     - *= Weakness in the owner, could originate from context*
 
-- "I think Ginny is still under threat from the hacker - can you help me define it to her?"
+- "I think Ginny is still under threat from the hacker - can you help me explain to her what a threat is?"
     - *= Circumstances or events that could potentially lead to harm or loss*
     - *= Weakness in the system, could originate from design*
     - *= Attempt to exploit a vulnerability*
 
-- "From this clue, I'm deducting that there was an attempt to exploit a vulnerability - what does this define"
+- "From this clue, I'm deducting that there was an attempt to exploit a vulnerability - what does this describe?"
     - *= Attack*
     - *= Vulnerability*
     - *= Threat*
@@ -75,12 +75,12 @@
     - *= Attempt to exploit a vulnerability*
     - *= Circumstances or events that could potentially lead to harm or loss*
 
-- "I know there are 4 types of attackers, but what are they again?"
+- "Let’s think about what type of attacker this could be – which of the following are real types of hackers?"
     - *= Amateurs, Crackers, Hacktivists, Terrorists*
     - *= Amateurs, Biscuits, Hacktivists, Terrorists*
-    - *= Amateurs, Cracker, Lacktivists, Terrorists*
+    - *= Amateurs, Crackers, Lacktivists, Terrorists*
 
-- "Security is so hard to get right, which of the following is a reason why?"
+- "Security is so hard to get right, which of the following is one of the key reasons why?"
     - *= Arms race, Weakest links, resistance against overheads*
     - *= Arms wrestle, Weakest links, attacks "outside the box"*
     - *= You are the weakest link, goodbye*
@@ -98,14 +98,14 @@
 - "There are many reasons why security is important, select a real reason"
     - *= A legitimate user could be authenticated and then remove files from their server*
     - *= The policeman said so*
-    - *= You could be directed to a safe website*
+    - *= A legitimate user could be authenticated*
 
-- "This clue is suggesting a replay attack, how would you classify a replay attack?"
+- "This clue is suggesting a replay attack, how would you clsssify a replay attack?"
     - *= The attacker could send extra copies of your message*
     - *= Even with originality guaranteed, an adversary could intercept your message and retransmit it with a delay*
     - *= Even encrypted, an adversary could modify the message*
 
-## Level 3
+## Case 3 – Lecture 3: Risk Management
 - "I need to help Ginny secure the house from future security risks - how can I define a security risk to her?"
     - *= A measure of the extent to which an entity is threatened by a potential circumstance or event, and typically a function of (i) the adverse impacts that would arise if the circumstance or event occurs; and (ii) the likelihood of occurrence*
     - *= the quantitative evaluation of the combination of threat, vulnerability and impact for a given state of a system*
@@ -113,20 +113,20 @@
 
 - "I need to calculate the security risk for Ginny - what's the function I can use?"
     - *= Threat x Probability x Business Impact = Risk*
-    - *= Threat + Probability + Business Impact = Risk*
+    - *= Attack x Probability x Impact = Risk*
     - *= Threat x Probability / Business Impact = Risk*
 
-- "This clue looks like it has something of value to the house - what would it be defined as?"
+- "This clue looks like it has something of value to the house - what could this be classed as?"
     - *= Asset*
     - *= Impact*
     - *= Vulnerability*
 
-- "This clue looks like it could impact the security of this house - which of the following define impact in terms of security?"
+- "This clue looks like it could impact the security of this house - what  impact can I look for in terms of security?"
     - *= negative consequences for an asset*
     - *= something of value to the organisation*
     - *= the likelihood that an attack will take place*
 
-- "How can I define what an attack probability is to Ginny?"
+- "How can I explain what an attack probability is to Ginny?"
     - *= the likelihood that an attack will take place*
     - *= undesired exposure of stored information*
     - *= something of value to the organisation*
@@ -156,7 +156,7 @@
     - *= Attentiveness of target*
     - *= Estimated cost of defence*
 
-- "I should complete a security risk evaluation - select the correct definition"
+- "I should complete a security risk evaluation - select the correct technique used to complete a security risk evaluation"
     - *= the process by which the output of the risk from the assessment is balanced and prioritised, and the response identified*
     - *= a method of presenting related information in the expression of a security risk*
     - *= the quantitative evaluation of the combination of threat, vulnerability and impact for a given state of a system*
@@ -166,7 +166,7 @@
     - *= Avoid, Migrate, Transfer, Accept*
     - *= Avoid, Mitigate, Transport, Accept*
 
-## Level 4
+## Case 4 – Lecture 4: Usable Security
 - "This clue has got me thinking about usable security but what's the definition of it?"
     - *= A field concerned with making the security features of systems easy to understand and use*
     - *= A field concerned with adapting the security features of systems hard to understand and use*
@@ -216,3 +216,8 @@
     - *= Design such that security does not reduce performance*
     - *= Increase the use of technical and security-specific terms and jargon*
     - *= Make security state invisible, and security functionality invisible and inaccessible*
+
+- “Ginny needs a safer password. Which of the following would be the ‘best’ password?”
+	- *= kent.SL2021*
+	- *= rm445@jlsdVEb*
+	- *= p4$$w0rd*

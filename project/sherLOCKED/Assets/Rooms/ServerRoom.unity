@@ -6166,11 +6166,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9baed10a47540ad9e3e898b6267a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topAnswer: {fileID: 1423804480}
-  middleAnswer: {fileID: 1423804479}
-  bottomAnswer: {fileID: 1423804478}
+  topAnswer: {fileID: 152196134}
+  middleAnswer: {fileID: 152196132}
+  bottomAnswer: {fileID: 152196130}
   correctAnswer: {fileID: 152196130}
+<<<<<<< HEAD
   extraInfo: {fileID: 1423804477}
+=======
+  extraInfo: {fileID: 152196129}
+>>>>>>> 031a6fbfcd82f1c51a2111b3c4b8efdb638a8139
   questionUI: {fileID: 152196135}
 --- !u!61 &1554878493
 BoxCollider2D:
@@ -6293,11 +6297,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9baed10a47540ad9e3e898b6267a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topAnswer: {fileID: 152196134}
-  middleAnswer: {fileID: 152196132}
-  bottomAnswer: {fileID: 152196130}
+  topAnswer: {fileID: 1423804480}
+  middleAnswer: {fileID: 1423804479}
+  bottomAnswer: {fileID: 1423804478}
   correctAnswer: {fileID: 1423804479}
+<<<<<<< HEAD
   extraInfo: {fileID: 152196129}
+=======
+  extraInfo: {fileID: 1423804477}
+>>>>>>> 031a6fbfcd82f1c51a2111b3c4b8efdb638a8139
   questionUI: {fileID: 1423804481}
 --- !u!61 &1583418179
 BoxCollider2D:
