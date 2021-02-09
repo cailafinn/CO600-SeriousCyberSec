@@ -16,6 +16,7 @@ public class HallStart : MonoBehaviour
             sherry.transform.tag = "Player";
             sherry.GetComponent<Renderer>().sortingLayerName = "character";
             sherry.GetComponent<Renderer>().sortingOrder = 0;
+            sherry.GetComponent<Animator>().runtimeAnimatorController = ColourManager.Instance.GetCurrentController();
         }
         introText.Interact();
     }

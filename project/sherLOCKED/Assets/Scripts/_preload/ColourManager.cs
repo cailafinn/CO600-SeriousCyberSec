@@ -19,7 +19,7 @@ public class ColourManager : MonoBehaviour
     }
 
     void Start() {
-        currentController = controllers[0];
+        currentController = controllers[1];
     }
 
     public void SetColour(string colour) {
