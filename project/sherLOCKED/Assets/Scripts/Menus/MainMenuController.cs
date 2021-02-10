@@ -11,6 +11,7 @@ public class MainMenuController : MonoBehaviour
     public GameObject levelSelectMenu;
 
     public void Start() {
+        MusicManager.Instance.PlayMenuMusic();
         SetLevelColours();
         howToMenu.SetActive(false);
         levelSelectMenu.SetActive(false);
@@ -40,6 +41,7 @@ public class MainMenuController : MonoBehaviour
         LevelManager.Instance.SetCurrentLevel(1);
         ScoreManager.Instance.Reset();
         UIManager.Instance.SetGameUIVisible(true);
+        MusicManager.Instance.PlayGameMusic();
         SceneManager.LoadScene("Hall");
     }
 
@@ -47,6 +49,7 @@ public class MainMenuController : MonoBehaviour
         LevelManager.Instance.SetCurrentLevel(2);
         ScoreManager.Instance.Reset();
         UIManager.Instance.SetGameUIVisible(true);
+        MusicManager.Instance.PlayGameMusic();
         SceneManager.LoadScene("ServerRoom");
     }
 

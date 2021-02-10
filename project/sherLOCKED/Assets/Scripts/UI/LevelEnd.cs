@@ -14,9 +14,11 @@ public class LevelEnd : MonoBehaviour
     void Awake()
     {
         if (ScoreManager.Instance.GetWon()) {
+            MusicManager.Instance.SetPitch(1.2f);
             fail.SetActive(false);
             succeed.SetActive(true);
         } else {
+            MusicManager.Instance.SetPitch(0.8f);
             fail.SetActive(true);
             succeed.SetActive(false);
         }
