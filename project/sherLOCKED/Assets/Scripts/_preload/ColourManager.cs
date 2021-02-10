@@ -10,6 +10,8 @@ public class ColourManager : MonoBehaviour
 
     private RuntimeAnimatorController currentController;
 
+    private string currentColour;
+
     void Awake() {
         if (Instance == null) {
             Instance = this;
@@ -19,18 +21,23 @@ public class ColourManager : MonoBehaviour
     }
 
     void Start() {
-        currentController = controllers[1];
+        currentController = controllers[0];
+        currentColour = "grey";
     }
 
     public void SetColour(string colour) {
         if (colour == "grey") {
             currentController = controllers[0];
+            currentColour = colour;
         } else if (colour == "red") {
             currentController = controllers[1];
+            currentColour = colour;
         } else if (colour == "green") {
             currentController = controllers[2];
+            currentColour = colour;
         } else if (colour == "blue") {
             currentController = controllers[3];
+            currentColour = colour;
         } else {
             Debug.Log("Error: Invalid colour controller selected. 'grey', 'red', 'green', or 'blue' are the only valid options.");
         }
@@ -38,5 +45,9 @@ public class ColourManager : MonoBehaviour
     
     public RuntimeAnimatorController GetCurrentController() {
         return currentController;
+    }
+
+    public string GetCurrentColour() {
+        return currentColour;
     }
 }
