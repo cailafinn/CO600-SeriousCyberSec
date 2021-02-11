@@ -21,6 +21,10 @@ public class QuestionManager : MonoBehaviour
         return interacted.Contains(toCheck);
     }
 
+    public bool AreAllAnswered() {
+        return interacted.Count >= 10;
+    }
+
     public void ClearList() {
         interacted.Clear();
     }
