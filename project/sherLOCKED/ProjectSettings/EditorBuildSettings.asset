@@ -6,27 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Rooms/_preload.unity
+    path: Assets/Rooms/Misc/_preload.unity
     guid: 513b799ef13e340ba9e8d1a66cfde198
   - enabled: 1
-    path: Assets/Rooms/MainMenu.unity
+    path: Assets/Rooms/Misc/MainMenu.unity
     guid: 8a2aa1057a291450695386e1796b827e
   - enabled: 1
-    path: Assets/Rooms/Hall.unity
+    path: Assets/Rooms/Level1/Hall.unity
     guid: ebae19286934e41d7985c33a7b1fb21c
   - enabled: 1
-    path: Assets/Rooms/Library.unity
+    path: Assets/Rooms/Level1/Library.unity
     guid: 8bb53e8c7df88431a8b0c7bcc6dfd827
   - enabled: 1
-    path: Assets/Rooms/DiningRoom.unity
+    path: Assets/Rooms/Level1/DiningRoom.unity
     guid: 568faca37af9c4bd881a2b29a491e87e
   - enabled: 1
-    path: Assets/Rooms/Ballroom.unity
+    path: Assets/Rooms/Level1/Ballroom.unity
     guid: 475ef2cf488914c3d80f37e6ae34b416
   - enabled: 1
-    path: Assets/Rooms/ServerRoom.unity
+    path: Assets/Rooms/Level4/ServerRoomL4.unity
     guid: 24683dee352c642c6a9dd8d228087483
   - enabled: 1
-    path: Assets/Rooms/LevelEnd.unity
+    path: Assets/Rooms/Misc/LevelEnd.unity
     guid: 5e2b3bad35d02479fa51746ada704a94
   m_configObjects: {}
