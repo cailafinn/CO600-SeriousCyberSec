@@ -36,7 +36,7 @@ public class ScoreManager : MonoBehaviour
         if(playing) {
             if (currentRep <= 0) {
                 LevelEnd();
-            } else if (currentInt >= maxInt){
+            } else if (currentInt >= maxInt || QuestionManager.Instance.AreAllAnswered()){
                 won = true;
                 LevelManager.Instance.SetComplete();
                 LevelEnd();
