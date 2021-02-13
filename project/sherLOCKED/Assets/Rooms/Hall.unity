@@ -2546,6 +2546,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 1608092325835618366}
   extraInfo: {fileID: 3968535176069026070}
   questionUI: {fileID: 5228162260527717996}
+  wrongText: 'Blast. I should try and recall the goals of the CIA triad. '
 --- !u!58 &1435641940
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2956,6 +2957,8 @@ MonoBehaviour:
   correctAnswer: {fileID: 15731114}
   extraInfo: {fileID: 7207828873164658984}
   questionUI: {fileID: 1989010473175979602}
+  wrongText: Whoops. I'll have to remember these. They're fundemental to all security
+    cases.
 --- !u!1 &2063408726
 GameObject:
   m_ObjectHideFlags: 0

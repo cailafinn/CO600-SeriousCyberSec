@@ -1340,6 +1340,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 1596728790}
   extraInfo: {fileID: 1596728789}
   questionUI: {fileID: 1596728793}
+  wrongText: Oh. Legitimate users can still be malicious or make errors
 --- !u!61 &87433330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3428,6 +3429,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 293859571}
   extraInfo: {fileID: 293859569}
   questionUI: {fileID: 293859573}
+  wrongText: Whoops. I wonder if any of these committed the crime?
 --- !u!61 &431589159
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4172,6 +4174,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 82884182}
   extraInfo: {fileID: 82884179}
   questionUI: {fileID: 82884183}
+  wrongText: Oh yes. It can be very challenging to keep up with new attacks
 --- !u!61 &764398436
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4363,6 +4366,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 345376422}
   extraInfo: {fileID: 345376421}
   questionUI: {fileID: 345376427}
+  wrongText: '"Man in the middle", stop a service, modify data, create new fake data'
 --- !u!61 &802099672
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4587,6 +4591,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 1614490149}
   extraInfo: {fileID: 1614490146}
   questionUI: {fileID: 1614490150}
+  wrongText: Ah yes. Vulnerabilities are system properties that could be exploited
 --- !u!1 &1031403681
 GameObject:
   m_ObjectHideFlags: 0
@@ -5274,6 +5279,8 @@ MonoBehaviour:
   correctAnswer: {fileID: 1199214635}
   extraInfo: {fileID: 1199214633}
   questionUI: {fileID: 1199214637}
+  wrongText: I should try and recall the differences between Attacks, threats, and
+    vulnerabilities
 --- !u!61 &1362043340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6172,6 +6179,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 152196130}
   extraInfo: {fileID: 152196129}
   questionUI: {fileID: 152196135}
+  wrongText: Dang. Control would be limiting damage
 --- !u!61 &1554878493
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6299,6 +6307,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 1423804479}
   extraInfo: {fileID: 1423804477}
   questionUI: {fileID: 1423804481}
+  wrongText: Ah, interception and evesdropping wouldn't alter anything
 --- !u!61 &1583418179
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7685,6 +7694,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 544747460}
   extraInfo: {fileID: 544747457}
   questionUI: {fileID: 544747461}
+  wrongText: Not quite. Replaying would be sending extra copies
 --- !u!61 &1800721158
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7893,6 +7903,8 @@ MonoBehaviour:
   correctAnswer: {fileID: 1238556}
   extraInfo: {fileID: 1238555}
   questionUI: {fileID: 1238559}
+  wrongText: Whoops. Attacks are aimed at vulnerabilities. Threats could be potential
+    attacks that may happen
 --- !u!61 &1952297073
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9549,3 +9561,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sherryPrefab: {fileID: 5775625926783711417, guid: 4cca489188eb944529c65aa3be842bde,
     type: 3}
+  introText: {fileID: 0}

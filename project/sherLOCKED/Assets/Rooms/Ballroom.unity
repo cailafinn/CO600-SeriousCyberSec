@@ -433,6 +433,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 1315421949}
   extraInfo: {fileID: 1315421944}
   questionUI: {fileID: 1315421950}
+  wrongText: Oops, computer security is a very broad topic
 --- !u!1 &441950322
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +713,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 1168479053}
   extraInfo: {fileID: 1168479051}
   questionUI: {fileID: 1168479055}
+  wrongText: Ah yes, authentication is confirmation
 --- !u!1001 &1168479049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1090,6 +1092,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PortraitCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986492941132275450, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6497505910143696505, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -1592,6 +1599,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SofaCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986492941132275450, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6497505910143696505, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -4176,6 +4188,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 1173500332}
   extraInfo: {fileID: 1173500331}
   questionUI: {fileID: 1173500335}
+  wrongText: 'Hmm, well, I wouldn''t want to be free from desirable events '
 --- !u!61 &1788809275
 BoxCollider2D:
   m_ObjectHideFlags: 0

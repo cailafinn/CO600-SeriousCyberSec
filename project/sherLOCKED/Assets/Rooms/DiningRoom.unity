@@ -2763,6 +2763,8 @@ MonoBehaviour:
   correctAnswer: {fileID: 6523695637907599024}
   extraInfo: {fileID: 6523695637907599020}
   questionUI: {fileID: 6523695637907599026}
+  wrongText: Whoops. I should make sure I understand non-repudiation, authorisation,
+    and authentication.
 --- !u!1 &1912844503
 GameObject:
   m_ObjectHideFlags: 0
@@ -2946,6 +2948,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 692596680516396698}
   extraInfo: {fileID: 692596680516396696}
   questionUI: {fileID: 692596680516396700}
+  wrongText: Ah. Security is a number of processes, rather than objects.
 --- !u!61 &1990637893
 BoxCollider2D:
   m_ObjectHideFlags: 0

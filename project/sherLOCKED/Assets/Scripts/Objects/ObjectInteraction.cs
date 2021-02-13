@@ -15,6 +15,8 @@ public class ObjectInteraction : MonoBehaviour
     public TextMeshProUGUI extraInfo;
     public GameObject questionUI;
 
+    public string wrongText;
+
     private ScoreManager prog;
     private QuestionManager qManager;
     
@@ -57,7 +59,7 @@ public class ObjectInteraction : MonoBehaviour
         if (!answered) {
             correctAnswer.color = Color.green;
             button.GetComponent<Image>().color = Color.red;
-            extraInfo.text = "Whoops, my mistake. I hope Ginny didn't see that...";
+            extraInfo.text = wrongText;
             answered = true;
             prog.DecreaseReputation();
             qManager.AddAnswered(this.gameObject.name);
