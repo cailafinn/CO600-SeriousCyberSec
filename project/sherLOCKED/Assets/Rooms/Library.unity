@@ -1349,6 +1349,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 258502722}
   extraInfo: {fileID: 258502717}
   questionUI: {fileID: 258502723}
+  wrongText: I should make sure I can recall all three CIA definitions
 --- !u!61 &678754350
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2203,6 +2204,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 1243654875}
   extraInfo: {fileID: 1243654874}
   questionUI: {fileID: 1243654878}
+  wrongText: Whoops, availability is ensuring stuff keeps working properly
 --- !u!1 &1346466891
 GameObject:
   m_ObjectHideFlags: 0
@@ -4967,6 +4969,11 @@ PrefabInstance:
       propertyPath: topAnswer
       value: 
       objectReference: {fileID: 1554799553}
+    - target: {fileID: 6093462872647170057, guid: 8521ac42496b34adea61e6432eae0a34,
+        type: 3}
+      propertyPath: wrongText
+      value: Whoops, to give permission is to authorise
+      objectReference: {fileID: 0}
     - target: {fileID: 6093462872647170057, guid: 8521ac42496b34adea61e6432eae0a34,
         type: 3}
       propertyPath: questionUI
