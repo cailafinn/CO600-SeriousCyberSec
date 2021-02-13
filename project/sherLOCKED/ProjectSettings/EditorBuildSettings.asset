@@ -41,4 +41,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rooms/Level4/LibraryL4.unity
     guid: f961aed96f54f4d6a8c52ce7b0086a46
+    path: Assets/Rooms/Hall_case3.unity
+    guid: d83163a6329fd487a9cdcb3184b5b866
+  - enabled: 1
+    path: Assets/Rooms/Ballroom_case3.unity
+    guid: df7d933d13aeb4fbabda3f0ab8b8c4a1
+  - enabled: 1
+    path: Assets/Rooms/DiningRoom_case3.unity
+    guid: 756069b3bc4bf4e769ee947b43ccf2aa
+  - enabled: 1
+    path: Assets/Rooms/ServerRoom_case3.unity
+    guid: 6a7388f2714f24fa783c29b74cbf9bf1
+  - enabled: 1
+    path: Assets/Rooms/Library_case3.unity
+    guid: bbd842c25e8ec4362a00fa72f2cd85b0
   m_configObjects: {}
