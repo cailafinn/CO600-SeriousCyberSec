@@ -131,8 +131,9 @@ GameObject:
   m_Component:
   - component: {fileID: 90072945}
   - component: {fileID: 90072944}
+  - component: {fileID: 90072946}
   m_Layer: 0
-  m_Name: door_closed
+  m_Name: server_door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -177,7 +178,7 @@ SpriteRenderer:
   m_SortingLayerID: 1273285335
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 762ab43c28a214103a0cd2a411feca3e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3ed6733956f584fb5bdeaaddf4c3d01e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -202,6 +203,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &90072946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90072943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextRoom: 
+  xPos: 3.5
+  yPos: -4
 --- !u!1 &123284718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,6 +1365,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 258502722}
   extraInfo: {fileID: 258502717}
   questionUI: {fileID: 258502723}
+  wrongText: 
 --- !u!61 &678754350
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2203,6 +2220,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 1243654875}
   extraInfo: {fileID: 1243654874}
   questionUI: {fileID: 1243654878}
+  wrongText: 
 --- !u!1 &1346466891
 GameObject:
   m_ObjectHideFlags: 0
