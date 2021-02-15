@@ -66,7 +66,11 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void level4() {
-
+        LevelManager.Instance.SetCurrentLevel(4);
+        ScoreManager.Instance.Reset();
+        UIManager.Instance.SetGameUIVisible(true);
+        MusicManager.Instance.PlayGameMusic();
+        SceneManager.LoadScene("HallL4");
     }
 
     public void level5() {
