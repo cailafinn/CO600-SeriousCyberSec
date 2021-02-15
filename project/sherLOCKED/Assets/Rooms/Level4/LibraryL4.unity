@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRoom: 
+  nextRoom: ServerRoomL4
   xPos: 3.5
   yPos: -4
 --- !u!61 &90072947
@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRoom: Hall
+  nextRoom: HallL4
   xPos: -2
   yPos: 3
 --- !u!61 &154765861

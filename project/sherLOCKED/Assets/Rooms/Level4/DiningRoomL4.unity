@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRoom: Hall
+  nextRoom: HallL4
   xPos: 3
   yPos: 3
 --- !u!61 &364354362
@@ -2065,7 +2065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRoom: Ballroom
+  nextRoom: BallroomL4
   xPos: -5
   yPos: -3.3
 --- !u!61 &622699588

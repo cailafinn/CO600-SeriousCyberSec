@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc67507ea8864862aafbfa2d3d7834f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextRoom: DiningRoom
+  nextRoom: DiningRoomL4
   xPos: 3
   yPos: 2
 --- !u!61 &214767245
@@ -1061,7 +1061,7 @@ PrefabInstance:
     - target: {fileID: 5986492941132275449, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5986492941132275449, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -1675,7 +1675,7 @@ PrefabInstance:
     - target: {fileID: 5986492941132275449, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5986492941132275449, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
