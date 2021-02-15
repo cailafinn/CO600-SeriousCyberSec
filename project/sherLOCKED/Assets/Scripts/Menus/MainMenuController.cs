@@ -15,11 +15,7 @@ public class MainMenuController : MonoBehaviour
     public void Start() {
         MusicManager.Instance.PlayMenuMusic();
         SetLevelColours();
-        howToMenu.SetActive(false);
-        levelSelectMenu.SetActive(false);
-        customizeMenu.SetActive(false);
-        creditsMenu.SetActive(false);
-        mainMenu.SetActive(true);
+        Back();
     }
 
     // Start the game
