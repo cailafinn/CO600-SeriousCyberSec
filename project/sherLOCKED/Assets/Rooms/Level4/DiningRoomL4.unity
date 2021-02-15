@@ -201,7 +201,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &176302773
 BoxCollider2D:
@@ -2186,9 +2186,10 @@ GameObject:
   - component: {fileID: 1057490462}
   - component: {fileID: 1057490461}
   - component: {fileID: 1057490463}
+  - component: {fileID: 1057490464}
   m_Layer: 0
-  m_Name: flowerPot
-  m_TagString: Untagged
+  m_Name: DiningFlowerPot
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2255,7 +2256,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1057490463
 BoxCollider2D:
@@ -2283,6 +2284,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &1057490464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057490460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9baed10a47540ad9e3e898b6267a37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topAnswer: {fileID: 692596680516396698}
+  middleAnswer: {fileID: 692596680516396697}
+  bottomAnswer: {fileID: 692596680516396699}
+  correctAnswer: {fileID: 692596680516396698}
+  extraInfo: {fileID: 692596680516396696}
+  questionUI: {fileID: 692596680516396700}
+  wrongText: Security is usually a secondary concern, so the interfaces can be poorly
+    designed.
 --- !u!1 &1133701923
 GameObject:
   m_ObjectHideFlags: 0
@@ -2376,9 +2397,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1274518731}
   - component: {fileID: 1274518730}
+  - component: {fileID: 1274518732}
+  - component: {fileID: 1274518733}
   m_Layer: 0
-  m_Name: portrait (2)
-  m_TagString: Untagged
+  m_Name: DiningPortrait
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2447,6 +2470,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1274518732
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274518729}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.5}
+  m_EdgeRadius: 0
+--- !u!114 &1274518733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274518729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9baed10a47540ad9e3e898b6267a37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topAnswer: {fileID: 6523695637907599024}
+  middleAnswer: {fileID: 6523695637907599022}
+  bottomAnswer: {fileID: 6523695637907599025}
+  correctAnswer: {fileID: 6523695637907599022}
+  extraInfo: {fileID: 6523695637907599020}
+  questionUI: {fileID: 6523695637907599026}
+  wrongText: Security should be as low effort to use and unintrusive as possible.
 --- !u!1 &1329054932
 GameObject:
   m_ObjectHideFlags: 0
@@ -2675,12 +2743,12 @@ PrefabInstance:
     - target: {fileID: 2576129884339663040, guid: 607622a6b8ff241d3b61c9035cf45142,
         type: 3}
       propertyPath: m_Name
-      value: DiningPortrait
+      value: Portrait
       objectReference: {fileID: 0}
     - target: {fileID: 2576129884339663040, guid: 607622a6b8ff241d3b61c9035cf45142,
         type: 3}
       propertyPath: m_TagString
-      value: Interactable
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2576129884339663046, guid: 607622a6b8ff241d3b61c9035cf45142,
         type: 3}
@@ -2739,30 +2807,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 607622a6b8ff241d3b61c9035cf45142, type: 3}
---- !u!1 &1861064718 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2576129884339663040, guid: 607622a6b8ff241d3b61c9035cf45142,
-    type: 3}
-  m_PrefabInstance: {fileID: 1861064717}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1861064719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861064718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d9baed10a47540ad9e3e898b6267a37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topAnswer: {fileID: 6523695637907599024}
-  middleAnswer: {fileID: 6523695637907599022}
-  bottomAnswer: {fileID: 6523695637907599025}
-  correctAnswer: {fileID: 6523695637907599024}
-  extraInfo: {fileID: 6523695637907599020}
-  questionUI: {fileID: 6523695637907599026}
 --- !u!1 &1912844503
 GameObject:
   m_ObjectHideFlags: 0
@@ -2856,10 +2900,9 @@ GameObject:
   - component: {fileID: 1990637890}
   - component: {fileID: 1990637894}
   - component: {fileID: 1990637893}
-  - component: {fileID: 1990637892}
   m_Layer: 0
-  m_Name: DiningDiningTable
-  m_TagString: Interactable
+  m_Name: DiningTable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2926,26 +2969,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1990637892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990637889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d9baed10a47540ad9e3e898b6267a37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topAnswer: {fileID: 692596680516396698}
-  middleAnswer: {fileID: 692596680516396697}
-  bottomAnswer: {fileID: 692596680516396699}
-  correctAnswer: {fileID: 692596680516396698}
-  extraInfo: {fileID: 692596680516396696}
-  questionUI: {fileID: 692596680516396700}
 --- !u!61 &1990637893
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3008,9 +3033,8 @@ PrefabInstance:
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: Hmmm let's look at cyber security in more detail. The collection of
-        what, can be used to protect the cyber environment, organisation and user's
-        assets?
+      value: This clue reminds of the main problems of usable security. Select which
+        of the following is a real problem?
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3055,7 +3079,12 @@ PrefabInstance:
     - target: {fileID: 2066714285757505256, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: Collection of scout badges
+      value: Security is usually a primary goal (and therefore users are unmotivated)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066714285757505256, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 48.75
       objectReference: {fileID: 0}
     - target: {fileID: 2291178382361193927, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3135,13 +3164,12 @@ PrefabInstance:
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: Collection of connected computing devices, personnel, infrastructure,
-        applications, services, telecommunications systems
+      value: Forcing informed security decisions on users
       objectReference: {fileID: 0}
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
-      value: 40.65
+      value: 60.9
       objectReference: {fileID: 0}
     - target: {fileID: 5228162259906570617, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3157,7 +3185,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1990637892}
+      objectReference: {fileID: 1057490464}
     - target: {fileID: 5590003368979181005, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -3182,7 +3210,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1990637892}
+      objectReference: {fileID: 1057490464}
     - target: {fileID: 5986492940394196865, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -3230,13 +3258,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1990637892}
+      objectReference: {fileID: 1057490464}
     - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Correct
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5986492940972340867, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3376,7 +3414,7 @@ PrefabInstance:
     - target: {fileID: 5986492941132275450, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_Name
-      value: TableQuestion
+      value: FlowerQuestion
       objectReference: {fileID: 0}
     - target: {fileID: 5986492941132275450, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3436,14 +3474,12 @@ PrefabInstance:
     - target: {fileID: 8146025122903055349, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: Collection of tools, policies, security concepts, security safeguards,
-        guidelines, risk management approaches, actions, training, best practices,
-        assurance and technologies
+      value: Security interfaces tend to be too confusing and clumsy
       objectReference: {fileID: 0}
     - target: {fileID: 8146025122903055349, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
-      value: 34.7
+      value: 59.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 732bcd32f480b4397a8747cbb9332d95, type: 3}
@@ -3553,7 +3589,8 @@ PrefabInstance:
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: This reminds me of non-repudiation. But what's the meaning of non-repudiation?
+      value: I want to give Ginny some guidelines for usable security - select the
+        tip that is correct
       objectReference: {fileID: 0}
     - target: {fileID: 805665200033061514, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3593,13 +3630,13 @@ PrefabInstance:
     - target: {fileID: 2066714285757505256, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: the process of confirming the truth or correctness of the claimed artefact
-        or identity
+      value: Make security state invisible, and security functionality invisible
+        and inaccessible
       objectReference: {fileID: 0}
     - target: {fileID: 2066714285757505256, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
-      value: 55
+      value: 48.75
       objectReference: {fileID: 0}
     - target: {fileID: 2291178382361193927, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3669,13 +3706,12 @@ PrefabInstance:
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: the process of granting permission to someone/thing to do some action
-        (e.g., access files)
+      value: Reduce mental load associated with cybersecurity system activities
       objectReference: {fileID: 0}
     - target: {fileID: 4918074024288145605, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
-      value: 53.6
+      value: 48.75
       objectReference: {fileID: 0}
     - target: {fileID: 5590003368979181005, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3686,7 +3722,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1861064719}
+      objectReference: {fileID: 1057490464}
     - target: {fileID: 5590003368979181005, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -3705,27 +3741,27 @@ PrefabInstance:
     - target: {fileID: 5986492940394196865, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5986492940394196865, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1861064719}
+      objectReference: {fileID: 1057490464}
     - target: {fileID: 5986492940394196865, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Incorrect
+      value: Correct
       objectReference: {fileID: 0}
     - target: {fileID: 5986492940394196865, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 6523695637907599023}
+      objectReference: {fileID: 0}
     - target: {fileID: 5986492940394196865, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.UI.Button, UnityEngine.UI
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5986492940394196866, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3760,27 +3796,27 @@ PrefabInstance:
     - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1861064719}
+      objectReference: {fileID: 1057490464}
     - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Correct
+      value: Incorrect
       objectReference: {fileID: 0}
     - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6523695637907599023}
     - target: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: UnityEngine.UI.Button, UnityEngine.UI
       objectReference: {fileID: 0}
     - target: {fileID: 5986492940972340867, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
@@ -3965,13 +4001,12 @@ PrefabInstance:
     - target: {fileID: 8146025122903055349, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_text
-      value: ability for parties to prove that a message has been sent by a specific
-        person, and received by a specific person
+      value: 'Design such that security does reduce performance '
       objectReference: {fileID: 0}
     - target: {fileID: 8146025122903055349, guid: 732bcd32f480b4397a8747cbb9332d95,
         type: 3}
       propertyPath: m_fontSize
-      value: 46.7
+      value: 52.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 732bcd32f480b4397a8747cbb9332d95, type: 3}
@@ -4019,7 +4054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &6523695637907599023 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5986492940394196865, guid: 732bcd32f480b4397a8747cbb9332d95,
+  m_CorrespondingSourceObject: {fileID: 5986492940972340866, guid: 732bcd32f480b4397a8747cbb9332d95,
     type: 3}
   m_PrefabInstance: {fileID: 6523695637907599018}
   m_PrefabAsset: {fileID: 0}
