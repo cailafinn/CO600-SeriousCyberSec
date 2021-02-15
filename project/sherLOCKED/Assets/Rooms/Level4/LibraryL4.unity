@@ -217,8 +217,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextRoom: ServerRoomL4
-  xPos: 3.5
-  yPos: -4
+  xPos: 3.35
+  yPos: -3.35
 --- !u!61 &90072947
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2238,31 +2238,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1243654870}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1342891583 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3623090766605624558, guid: 295191143d1dd4fd38e5492e32e86c04,
-    type: 3}
-  m_PrefabInstance: {fileID: 3623090767411299025}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1342891584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342891583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d9baed10a47540ad9e3e898b6267a37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topAnswer: {fileID: 1243654877}
-  middleAnswer: {fileID: 1243654876}
-  bottomAnswer: {fileID: 1243654875}
-  correctAnswer: {fileID: 1243654875}
-  extraInfo: {fileID: 1243654874}
-  questionUI: {fileID: 1243654878}
-  wrongText: 
 --- !u!1 &1346466891
 GameObject:
   m_ObjectHideFlags: 0
@@ -4483,7 +4458,8 @@ PrefabInstance:
       propertyPath: correctAnswer
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6093462872647170057, guid: 8521ac42496b34adea61e6432eae0a34, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8521ac42496b34adea61e6432eae0a34, type: 3}
 --- !u!1001 &6937054346590074840
 PrefabInstance:
