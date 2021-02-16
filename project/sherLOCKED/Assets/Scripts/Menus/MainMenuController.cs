@@ -10,14 +10,12 @@ public class MainMenuController : MonoBehaviour
     public GameObject howToMenu;
     public GameObject levelSelectMenu;
     public GameObject customizeMenu;
+    public GameObject creditsMenu;
 
     public void Start() {
         MusicManager.Instance.PlayMenuMusic();
         SetLevelColours();
-        howToMenu.SetActive(false);
-        levelSelectMenu.SetActive(false);
-        customizeMenu.SetActive(false);
-        mainMenu.SetActive(true);
+        Back();
     }
 
     // Start the game
@@ -37,11 +35,17 @@ public class MainMenuController : MonoBehaviour
         customizeMenu.SetActive(true);
     }
 
+    public void Credits() {
+        mainMenu.SetActive(false);
+        creditsMenu.SetActive(true);
+    }
+
     // Return to the main menu. 
     public void Back() {
         howToMenu.SetActive(false);
         levelSelectMenu.SetActive(false);
         customizeMenu.SetActive(false);
+        creditsMenu.SetActive(false);
         mainMenu.SetActive(true);
     }
 
