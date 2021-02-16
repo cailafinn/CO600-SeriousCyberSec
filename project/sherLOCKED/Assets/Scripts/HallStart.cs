@@ -18,9 +18,11 @@ public class HallStart : MonoBehaviour
             sherry.GetComponent<Renderer>().sortingOrder = 0;
             sherry.GetComponent<Animator>().runtimeAnimatorController = ColourManager.Instance.GetCurrentController();
 
-            // putting this in the if as a hack to make it happen just once
-            introText.SetActive(true);
-            introText.GetComponent<TextBoxController>().Interact();
+            if (introText != null) {
+                // putting this in the if as a hack to make it happen just once
+                introText.SetActive(true);
+                introText.GetComponent<TextBoxController>().Interact();
+            }
         }
     }
 }

@@ -11,7 +11,9 @@ public class NpcInteraction : MonoBehaviour
     public GameObject textBox;
 
     void Start() {
-        textBox.SetActive(false);
+        if (textBox != null) {
+            textBox.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -29,8 +31,10 @@ public class NpcInteraction : MonoBehaviour
         Animator anim = GetComponent<Animator>();
         anim.SetFloat("input_x", -player.GetComponent<Animator>().GetFloat("input_x"));
         anim.SetFloat("input_y", -player.GetComponent<Animator>().GetFloat("input_y"));
-        textBox.SetActive(true);
-        textBox.GetComponent<TextBoxController>().Interact();
+        if (textBox != null) {
+            textBox.SetActive(true);
+            textBox.GetComponent<TextBoxController>().Interact();
+        }
         Time.timeScale = 1;
     }
     
