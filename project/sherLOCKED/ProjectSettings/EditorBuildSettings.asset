@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Rooms/Misc/MainMenu.unity
     guid: 8a2aa1057a291450695386e1796b827e
   - enabled: 1
+    path: Assets/Rooms/Misc/LevelEnd.unity
+    guid: 5e2b3bad35d02479fa51746ada704a94
+  - enabled: 1
     path: Assets/Rooms/Level1/Hall.unity
     guid: ebae19286934e41d7985c33a7b1fb21c
   - enabled: 1
@@ -24,11 +27,26 @@ EditorBuildSettings:
     path: Assets/Rooms/Level1/Ballroom.unity
     guid: 475ef2cf488914c3d80f37e6ae34b416
   - enabled: 1
+    path: Assets/Rooms/Level2/ServerRoom.unity
+    guid: 0556b2f357e094b2995377d3bb6a889a
+  - enabled: 1
+    path: Assets/Rooms/Level3/Ballroom_case3.unity
+    guid: df7d933d13aeb4fbabda3f0ab8b8c4a1
+  - enabled: 1
+    path: Assets/Rooms/Level3/Hall_case3.unity
+    guid: d83163a6329fd487a9cdcb3184b5b866
+  - enabled: 1
+    path: Assets/Rooms/Level3/DiningRoom_case3.unity
+    guid: 756069b3bc4bf4e769ee947b43ccf2aa
+  - enabled: 1
+    path: Assets/Rooms/Level3/ServerRoom_case3.unity
+    guid: 6a7388f2714f24fa783c29b74cbf9bf1
+  - enabled: 1
+    path: Assets/Rooms/Level3/Library_case3.unity
+    guid: bbd842c25e8ec4362a00fa72f2cd85b0
+  - enabled: 1
     path: Assets/Rooms/Level4/ServerRoomL4.unity
     guid: 24683dee352c642c6a9dd8d228087483
-  - enabled: 1
-    path: Assets/Rooms/Misc/LevelEnd.unity
-    guid: 5e2b3bad35d02479fa51746ada704a94
   - enabled: 1
     path: Assets/Rooms/Level4/BallroomL4.unity
     guid: 841808942627d41b8a08c0d1872ca46f

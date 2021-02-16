@@ -137,8 +137,8 @@
     - *= a method to pass an interview*
 
 - "This clue shows I need to think about the security risk management lifecycle - select the correct lifecycle"
-    - *= Identify -> Analyse -> Threat -> Monitor*
-    - *= Threat -> Analyse -> Identify -> Monitor*
+    - *= Identify -> Analyse -> Treat -> Monitor*
+    - *= Treat -> Analyse -> Identify -> Monitor*
     - *= Identify -> Monitor -> Threat -> Analyse*
 
 - "I'm going to need to make security risk statements - but what are they?"
