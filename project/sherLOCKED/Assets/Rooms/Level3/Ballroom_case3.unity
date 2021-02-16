@@ -1883,7 +1883,7 @@ GameObject:
   - component: {fileID: 1589159232}
   - component: {fileID: 1589159233}
   m_Layer: 0
-  m_Name: portrait
+  m_Name: Ballportrait
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3765,7 +3765,7 @@ PrefabInstance:
     - target: {fileID: 2576129884339663040, guid: 607622a6b8ff241d3b61c9035cf45142,
         type: 3}
       propertyPath: m_Name
-      value: BallPortrait
+      value: portrait
       objectReference: {fileID: 0}
     - target: {fileID: 2576129884339663040, guid: 607622a6b8ff241d3b61c9035cf45142,
         type: 3}

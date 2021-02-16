@@ -2188,7 +2188,7 @@ GameObject:
   - component: {fileID: 1057490463}
   - component: {fileID: 1057490464}
   m_Layer: 0
-  m_Name: flowerPot
+  m_Name: diningflowerPot
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2296,12 +2296,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9baed10a47540ad9e3e898b6267a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topAnswer: {fileID: 6523695637907599024}
-  middleAnswer: {fileID: 6523695637907599025}
-  bottomAnswer: {fileID: 6523695637907599022}
-  correctAnswer: {fileID: 6523695637907599022}
-  extraInfo: {fileID: 6523695637907599020}
-  questionUI: {fileID: 6523695637907599026}
+  topAnswer: {fileID: 692596680516396698}
+  middleAnswer: {fileID: 692596680516396697}
+  bottomAnswer: {fileID: 692596680516396699}
+  correctAnswer: {fileID: 692596680516396699}
+  extraInfo: {fileID: 692596680516396696}
+  questionUI: {fileID: 692596680516396700}
   wrongText: Seems to me that attack probability is about attack
 --- !u!1 &1133701923
 GameObject:
@@ -2935,7 +2935,6 @@ GameObject:
   - component: {fileID: 1990637890}
   - component: {fileID: 1990637894}
   - component: {fileID: 1990637893}
-  - component: {fileID: 1990637892}
   m_Layer: 0
   m_Name: DiningDiningTable
   m_TagString: Untagged
@@ -3007,25 +3006,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1990637892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990637889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d9baed10a47540ad9e3e898b6267a37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topAnswer: {fileID: 692596680516396698}
-  middleAnswer: {fileID: 692596680516396697}
-  bottomAnswer: {fileID: 692596680516396699}
-  correctAnswer: {fileID: 692596680516396698}
-  extraInfo: {fileID: 692596680516396696}
-  questionUI: {fileID: 692596680516396700}
-  wrongText: Ah. Security is a number of processes, rather than objects.
 --- !u!61 &1990637893
 BoxCollider2D:
   m_ObjectHideFlags: 0

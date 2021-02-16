@@ -1711,7 +1711,7 @@ GameObject:
   - component: {fileID: 764398436}
   - component: {fileID: 764398435}
   m_Layer: 0
-  m_Name: bookcase
+  m_Name: ServerBookcase
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2776,7 +2776,7 @@ GameObject:
   - component: {fileID: 1362043340}
   - component: {fileID: 1362043339}
   m_Layer: 0
-  m_Name: sofa
+  m_Name: ServerSofa
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

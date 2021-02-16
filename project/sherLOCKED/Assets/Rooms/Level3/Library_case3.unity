@@ -1043,7 +1043,7 @@ GameObject:
   - component: {fileID: 455611845}
   - component: {fileID: 455611846}
   m_Layer: 0
-  m_Name: sofa (1)
+  m_Name: LibSofa
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2347,7 +2347,7 @@ GameObject:
   - component: {fileID: 1472611297}
   - component: {fileID: 1472611298}
   m_Layer: 0
-  m_Name: flowerPot
+  m_Name: LibFlowerPot
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3163,7 +3163,7 @@ GameObject:
   - component: {fileID: 1853352751}
   - component: {fileID: 1853352752}
   m_Layer: 0
-  m_Name: bookcase (3)
+  m_Name: LibBookcase
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4997,7 +4997,7 @@ PrefabInstance:
     - target: {fileID: 3623090766605624558, guid: 295191143d1dd4fd38e5492e32e86c04,
         type: 3}
       propertyPath: m_Name
-      value: LibSofa
+      value: Sofa
       objectReference: {fileID: 0}
     - target: {fileID: 3623090766605624558, guid: 295191143d1dd4fd38e5492e32e86c04,
         type: 3}
@@ -5135,7 +5135,7 @@ PrefabInstance:
     - target: {fileID: 6937054347266117620, guid: a4975928f44e44d24abe691b8007eaed,
         type: 3}
       propertyPath: m_Name
-      value: LibBookcase
+      value: bookcase
       objectReference: {fileID: 0}
     - target: {fileID: 6937054347266117620, guid: a4975928f44e44d24abe691b8007eaed,
         type: 3}
