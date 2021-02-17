@@ -3766,6 +3766,12 @@ MonoBehaviour:
   levelSelectMenu: {fileID: 201798757}
   customizeMenu: {fileID: 676056322}
   creditsMenu: {fileID: 1406565016}
+  buttons:
+  - {fileID: 1343646979}
+  - {fileID: 1198231701}
+  - {fileID: 92819063}
+  - {fileID: 1951135330}
+  - {fileID: 846675922}
 --- !u!1 &1343646979
 GameObject:
   m_ObjectHideFlags: 0
