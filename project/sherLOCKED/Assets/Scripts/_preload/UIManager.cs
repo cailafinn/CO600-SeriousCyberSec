@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     private GameObject intuitionBar;
     private GameObject reputationBar;
     private GameObject interactionSymbol;
+    private GameObject pauseMenu;
 
 
     // Start is called before the first frame update
@@ -20,6 +21,7 @@ public class UIManager : MonoBehaviour
         intuitionBar = GameObject.Find("IntuitionBar");
         reputationBar = GameObject.Find("ReputationBar");
         interactionSymbol = GameObject.Find("interactionSymbol");
+        pauseMenu = GameObject.Find("PauseMenu");
         SetGameUIVisible(false);
     }
 
@@ -33,6 +35,8 @@ public class UIManager : MonoBehaviour
 
     public void SetGameUIVisible(bool visible) {
         canvas.SetActive(visible);
+        pauseMenu.GetComponent<PauseMenuController>().enabled = visible;
+        pauseMenu.GetComponent<PauseMenuController>().HidePause();
     }
 
     public void ResetValues() {
