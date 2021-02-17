@@ -2189,13 +2189,18 @@ MonoBehaviour:
     Conor Finn & Alice Jaffray
 
 
+    Project Supervisor
+
+    Dr
+    Jason Nurse
+
+
     Music
 
-    "On the Cool
-    Side" Kevin MacLeod (incompetech.com)
+    "On the Cool Side" Kevin MacLeod (incompetech.com)
 
-    Licensed under Creative Commons: By
-    Attribution 4.0 License
+    Licensed
+    under Creative Commons: By Attribution 4.0 License
 
     http://creativecommons.org/licenses/by/4.0/
 
@@ -2234,7 +2239,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.55
+  m_fontSize: 29.25
   m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 1
