@@ -756,7 +756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -764,9 +764,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.3529412, g: 0.41176474, b: 0.53333336, a: 1}
-    m_HighlightedColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.37798145, g: 0.44545674, b: 0.5849056, a: 1}
+    m_PressedColor: {r: 0.2011837, g: 0.23709798, b: 0.31132078, a: 1}
+    m_SelectedColor: {r: 0.3529412, g: 0.41176474, b: 0.53333336, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -852,4 +852,17 @@ MonoBehaviour:
   leftSprite: {fileID: 5024334560973216745}
   rightSprite: {fileID: 5024334560319478847}
   text: {fileID: 5024334561252489065}
+  story:
+  - You must be Ginny, you called my office about a hacking?
+  - Yes. That is correct. Someone took control of the house!
+  - We had all these improvements installed and they just went haywire last night.
+  - Interesting, I'll have a look around and see what I can find.
+  - Once I've gained enough INTUITION, I should be able to work out what really happened
+    here.
+  - You are supposed to be the best in the business, I hope you live up to your REPUTATION.
+  - Of course Ma'am, I'll have this case cracked in no time!
+  - (I should make sure my deductions are correct. Too many errors and I'll be fired!)
+  - Best of luck to you, Sherry.
+  - 
+  focusLeft: 010000010100010100
   open: 0

@@ -17,9 +17,13 @@ public class TextBoxController : MonoBehaviour
     public bool open = false;
 
     private SherryMovement playerMovement;
+    private NpcInteraction npcInteraction;
+
     public void Interact() {
         playerMovement = GameObject.Find("sherry_b1(Clone)").GetComponent<SherryMovement>();
+        npcInteraction = GameObject.Find("ginny").GetComponent<NpcInteraction>();
         if (!open) {
+            npcInteraction.enabled = false;
             playerMovement.enabled = false;
             Focus(focusLeft[currentLine]);
             StartCoroutine("Write");
@@ -35,6 +39,7 @@ public class TextBoxController : MonoBehaviour
             GameObject.Find("TextBox").SetActive(false);
             open = false;
             playerMovement.enabled = true;
+            npcInteraction.enabled = true;
             currentLine = 0;
         }
     }
