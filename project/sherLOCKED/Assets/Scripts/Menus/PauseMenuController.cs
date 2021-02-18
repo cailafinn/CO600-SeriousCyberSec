@@ -28,6 +28,7 @@ public class PauseMenuController : MonoBehaviour
 
     public void ReturnToMainMenu() {
         UIManager.Instance.SetGameUIVisible(false);
+        Destroy(GameObject.Find("sherry_b1(Clone)"));
         SceneManager.LoadScene("MainMenu");
     }
 }
