@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rooms/Level4/LibraryL4.unity
     guid: f961aed96f54f4d6a8c52ce7b0086a46
+  - enabled: 1
+    path: Assets/Rooms/Level4/Conservatory.unity
+    guid: 45c2867d89e874d69a88a3df53e5e446
   m_configObjects: {}
