@@ -300,8 +300,7 @@ MonoBehaviour:
   correctAnswer: {fileID: 413908942}
   extraInfo: {fileID: 413908939}
   questionUI: {fileID: 413908943}
-  wrongText: 'Whoops. It''s about making security as easy as possible for the user.
-    Whoops. It''s about making security as easy as possible for the user. '
+  wrongText: 'Whoops. It''s about making security as easy as possible for the user. '
 --- !u!1 &368738374
 GameObject:
   m_ObjectHideFlags: 0
