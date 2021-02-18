@@ -12,6 +12,8 @@ public class MainMenuController : MonoBehaviour
     public GameObject customizeMenu;
     public GameObject creditsMenu;
 
+    public GameObject[] buttons;
+
     public void Start() {
         MusicManager.Instance.PlayMenuMusic();
         SetLevelColours();
@@ -86,7 +88,6 @@ public class MainMenuController : MonoBehaviour
     }
 
     private void SetLevelColours() {
-        var buttons = GameObject.FindGameObjectsWithTag("LevelButton");
         for(int i = 0; i<buttons.Length; i++) {
             ColorBlock cb = buttons[i].GetComponent<Button>().colors;
             if (LevelManager.Instance.GetComplete(i+1)) {
