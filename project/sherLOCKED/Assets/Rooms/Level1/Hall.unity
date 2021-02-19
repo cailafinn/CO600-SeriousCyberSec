@@ -286,6 +286,28 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2306804121684800424, guid: aedfc4a250e174620ac12d655bd4d085, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aedfc4a250e174620ac12d655bd4d085, type: 3}
+--- !u!1 &400555940 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2306804121684800427, guid: aedfc4a250e174620ac12d655bd4d085,
+    type: 3}
+  m_PrefabInstance: {fileID: 400555939}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &400555941
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400555940}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!224 &459842002 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5986492941132275449, guid: 732bcd32f480b4397a8747cbb9332d95,
@@ -2419,6 +2441,7 @@ GameObject:
   - component: {fileID: 1385569494}
   - component: {fileID: 1385569493}
   - component: {fileID: 1385569495}
+  - component: {fileID: 1385569496}
   m_Layer: 0
   m_Name: flowerPot
   m_TagString: Untagged
@@ -2516,6 +2539,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.5}
   m_EdgeRadius: 0
+--- !u!58 &1385569496
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385569492}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1435641936 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2306804121684800427, guid: aedfc4a250e174620ac12d655bd4d085,
