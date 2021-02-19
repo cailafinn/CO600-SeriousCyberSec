@@ -17,7 +17,11 @@ public class MainMenuController : MonoBehaviour
     public void Start() {
         MusicManager.Instance.PlayMenuMusic();
         SetLevelColours();
+        var page = UIManager.Instance.GetMainMenuPage();
         Back();
+        if (page == "LevelSelect") {
+            PlayGame();
+        }
     }
 
     // Start the game
