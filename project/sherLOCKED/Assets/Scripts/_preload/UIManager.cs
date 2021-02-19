@@ -13,6 +13,9 @@ public class UIManager : MonoBehaviour
     private GameObject interactionSymbol;
     private GameObject pauseMenu;
 
+    // Page the main menu should start on.
+    private string mainMenuPage = "MainMenu";
+
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +49,14 @@ public class UIManager : MonoBehaviour
 
     public void SetInteractionVisible(bool visible) {
         interactionSymbol.SetActive(visible);
+    }
+
+    public void SetMainMenuPage(string setTo) {
+        mainMenuPage = setTo;
+    }
+
+    public string GetMainMenuPage() {
+        return mainMenuPage;
     }
 
 }

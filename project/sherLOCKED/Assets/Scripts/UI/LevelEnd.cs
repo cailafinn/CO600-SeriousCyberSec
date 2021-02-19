@@ -27,6 +27,7 @@ public class LevelEnd : MonoBehaviour
     }
 
     public void ReturnToMenu() {
+        UIManager.Instance.SetMainMenuPage("LevelSelect");
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 }
