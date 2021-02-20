@@ -36,11 +36,11 @@ public class TextBoxController : MonoBehaviour
         Focus(focusLeft[currentLine]);
         StartCoroutine("Write");
         if (currentLine == story.Length-1) {
-            GameObject.Find("TextBox").SetActive(false);
             open = false;
             playerMovement.enabled = true;
             npcInteraction.enabled = true;
             currentLine = 0;
+            gameObject.SetActive(false);
         }
     }
 
