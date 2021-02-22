@@ -5,9 +5,7 @@ using UnityEngine;
 public class QuestionController : MonoBehaviour
 {
     public void Resume() {
-        if (Time.timeScale == 0){
-            Time.timeScale = 1;
-            this.gameObject.SetActive(false);
-        }
+        Time.timeScale = 1;
+        this.gameObject.SetActive(false);
 	}
 }
