@@ -2,6 +2,8 @@
 
 This directory holds all of the documentation created for the project.
 
+## Directory Structure
+
 Admin: Processes and organisation method planning to keep the project running smoothly.
 
 Ethics: UKC ethics documentation for the game's user testing.
