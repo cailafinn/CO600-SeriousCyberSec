@@ -10,3 +10,13 @@ A detective inspired game where the player has to assist a victim in discovering
 @ConorMFinn
 
 @Alice-Jaffray
+
+## Directory Structure
+
+Assets: Files used to create the assets used in the game
+
+Docs: Documentation of the project
+
+Project: The actual unity project files (this is what unity loads)
+
+Report: Text files containing some of the report sections.
